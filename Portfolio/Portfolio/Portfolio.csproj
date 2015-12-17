@@ -229,6 +229,8 @@
     <Content Include="Content\Images\right.png" />
     <Content Include="Content\Images\separator.png" />
     <Content Include="Content\Images\tw.png" />
+    <Content Include="Content\Images\wooplr.jpg" />
+    <Content Include="Content\jquery.mCustomScrollbar.css" />
     <Content Include="Content\normalize.css" />
     <Content Include="Content\preloader.css" />
     <Content Include="favicon.ico" />
@@ -286,6 +288,9 @@
     <Content Include="Scripts\parallax.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\scroll\jquery.mCustomScrollbar.js" />
+    <Content Include="Scripts\scroll\jquery.mousewheel-3.0.6.js" />
+    <Content Include="Scripts\scroll\jquery.mousewheel.js" />
     <Content Include="Scripts\site.js" />
     <Content Include="Scripts\SmoothScroll.js" />
     <Content Include="Scripts\work\jquery.homeycombs.js" />

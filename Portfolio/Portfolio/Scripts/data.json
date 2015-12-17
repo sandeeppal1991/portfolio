@@ -4,7 +4,7 @@
       "title": "1",
       "description": "Lorem Ipsum",
       "shortDesc": "Lorem",
-      "mainImg": "",
+      "mainImg": "/Content/Images/wooplr.jpg",
       "sections": [
         {
           "title": "Section 1",
@@ -28,7 +28,7 @@
       "title": "2",
       "description": "Lorem Ipsum",
       "shortDesc": "Lorem",
-      "mainImg": "",
+      "mainImg": "/Content/Images/wooplr.jpg",
       "sections": [
         {
           "title": "Section 1",
@@ -52,7 +52,7 @@
       "title": "3",
       "description": "Lorem Ipsum",
       "shortDesc": "Lorem",
-      "mainImg": "",
+      "mainImg": "/Content/Images/wooplr.jpg",
       "sections": [
         {
           "title": "Section 1",
@@ -76,7 +76,7 @@
       "title": "4",
       "description": "Lorem Ipsum",
       "shortDesc": "Lorem",
-      "mainImg": "",
+      "mainImg": "/Content/Images/wooplr.jpg",
       "sections": [
         {
           "title": "Section 1",
@@ -100,7 +100,7 @@
       "title": "5",
       "description": "Lorem Ipsum",
       "shortDesc": "Lorem",
-      "mainImg": "",
+      "mainImg": "/Content/Images/wooplr.jpg",
       "sections": [
         {
           "title": "Section 1",
@@ -124,7 +124,7 @@
       "title": "6",
       "description": "Lorem Ipsum",
       "shortDesc": "Lorem",
-      "mainImg": "",
+      "mainImg": "/Content/Images/wooplr.jpg",
       "sections": [
         {
           "title": "Section 1",
@@ -148,7 +148,7 @@
       "title": "7",
       "description": "Lorem Ipsum",
       "shortDesc": "Lorem",
-      "mainImg": "",
+      "mainImg": "/Content/Images/wooplr.jpg",
       "sections": [
         {
           "title": "Section 1",
