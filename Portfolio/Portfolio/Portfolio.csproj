@@ -252,6 +252,7 @@
     <Content Include="AnimatedMenuIcon\fonts\codropsicons\codropsicons.woff" />
     <Content Include="AnimatedMenuIcon\js\.DS_Store" />
     <Content Include="AnimatedMenuIcon\README.md" />
+    <Content Include="Scripts\data.json" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\chart\jquery.hexagonprogress.js" />
     <Content Include="Scripts\header\modernizr.custom.js" />

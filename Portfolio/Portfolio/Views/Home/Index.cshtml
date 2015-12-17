@@ -15,16 +15,7 @@
             </nav>
         </div>
         <div class="ha-header-bottom">
-            <nav>
-                <a>Dalliance</a>
-                <a>Inglenook</a>
-                <a>Lagniappe</a>
-                <a>Mellifluous</a>
-                <a>Erstwhile</a>
-                <a>Wafture</a>
-                <a>Serendipity</a>
-                <a>Love</a>
-            </nav>
+            
         </div>
     </div>
 </header>
@@ -101,13 +92,13 @@
 
     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
 
-        <ul id="categories" class="clr">
+        <ul id="categories" class="clr" >
             <li>
             </li>
-            <li>
+            <li ng-repeat="project in works.projects">
                 <div>
-                    <img src="https://farm9.staticflickr.com/8461/8048823381_0fbc2d8efb.jpg" alt="" />
-                    <h1><a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">Modal 1</a></h1>
+                    <img ng-src="{{project.mainImg}}" alt="" />
+                    <h1><a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">{{project.title}}</a></h1>
                 </div>
             </li>
             <li>
