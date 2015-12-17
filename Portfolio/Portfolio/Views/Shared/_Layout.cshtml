@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body onresize="resize">
+    <div class="preloaderBody">
+        <div class="preloader loading">
+            <span class="slice"></span>
+            <span class="slice"></span>
+            <span class="slice"></span>
+            <span class="slice"></span>
+            <span class="slice"></span>
+            <span class="slice"></span>
+        </div>
+    </div>
+    <div ng-app="portfolio" ng-controller="portController">
+        @RenderBody()
+        <div class="pad-top-50"></div>
+        <footer  >
+            <div class="green-cover-footer">
+                <div class="clearfix"></div>
+                <div class="col-lg-offset-3 col-lg-6 col-md-6 col-sm-10 col-xs-12 col-md-offset-3 col-sm-offset-1">
+                   
+                    <center class="pad-top-50 pad-bottom-40">
+                        <h3>
+                            GET IN TOUCH
+                        </h3>
+                        <div class="pad-top-20 normal-text white-text" >
+                            Lets Work together
+                        </div>
+                        <img class="pad-top-20" src="~/Content/Images/footer-separator.png" />
+                        <div class="pad-top-50 " >
+                            <div class="col-lg-3 pad-bottom-20">
+                                <a href="https://facebook.com/sandeep.pal"><img src="~/Content/Images/fb.png"/></a>
+                            </div>
+                            <div class="col-lg-3 pad-bottom-20">
+                                <a href="https://twitter.com/dragoondranzer"><img src="~/Content/Images/tw.png" /></a>
+                            </div>
+                            <div class="col-lg-3 pad-bottom-20">
+                                <a href="https://www.behance.net/sandeep_pal1991"><img src="~/Content/Images/be.png" /></a>
+                            </div>
+                            <div class="col-lg-3 pad-bottom-20">
+                                <a href="https://in.linkedin.com/in/palsandeep"><img src="~/Content/Images/in.png" /></a>
+                            </div>
+                        </div>
+                       
+                    </center>
+
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/site")
+    @RenderSection("scripts", required: false)
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js" type="text/javascript"></script>
+    <script src="~/Scripts/app.js" type="text/javascript"></script>
+</body>
+</html>
