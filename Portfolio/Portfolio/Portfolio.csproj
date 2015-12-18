@@ -266,13 +266,13 @@
     <Content Include="HeaderEffects\README.md" />
     <Content Include="Canvas-Based-Hexagon-Progress-Bar-Plugin-with-jQuery-Hexagon-Progress\license.md" />
     <Content Include="Canvas-Based-Hexagon-Progress-Bar-Plugin-with-jQuery-Hexagon-Progress\readme.md" />
-    <Content Include="AnimatedMenuIcon\.DS_Store" />
     <Content Include="AnimatedMenuIcon\fonts\codropsicons\codropsicons.eot" />
     <Content Include="AnimatedMenuIcon\fonts\codropsicons\codropsicons.ttf" />
     <Content Include="AnimatedMenuIcon\fonts\codropsicons\codropsicons.woff" />
-    <Content Include="AnimatedMenuIcon\js\.DS_Store" />
     <Content Include="AnimatedMenuIcon\README.md" />
     <Content Include="Scripts\data.json" />
+    <None Include="Properties\PublishProfiles\sandeeppal - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\sandeeppal - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\chart\jquery.hexagonprogress.js" />
     <Content Include="Scripts\header\modernizr.custom.js" />
@@ -280,6 +280,7 @@
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\scroll\jquery.mousewheel.min.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
@@ -335,7 +336,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="bin\" />
     <Folder Include="obj\Debug\TempPE\" />
-    <Folder Include="Properties\PublishProfiles\" />
     <Folder Include="Scripts\angular\" />
     <Folder Include="startbootstrap-freelancer-1.0.3\" />
     <Folder Include="__MACOSX\" />

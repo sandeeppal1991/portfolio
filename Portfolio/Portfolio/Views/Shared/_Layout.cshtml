@@ -8,7 +8,7 @@
     @Scripts.Render("~/bundles/modernizr")
 
 </head>
-<body onresize="resize">
+<body onresize="resize" >
     <div class="preloaderBody">
         <div class="preloader loading">
             <span class="slice"></span>
@@ -19,7 +19,7 @@
             <span class="slice"></span>
         </div>
     </div>
-    <div ng-app="portfolio" ng-controller="portController" id="app">
+    <div ng-app="portfolio" ng-controller="portController" id="app" data-parallax="scroll" data-image-src="/Content/Images/main-back.jpg">
         @RenderBody()
         <div class="pad-top-50"></div>
         <footer  >

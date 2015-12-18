@@ -21,7 +21,7 @@
 </header>
 <div class="hero" id="home">
     <div class="clearfix"></div>
-    <div class="inside-hero" data-parallax="scroll" data-image-src="/Content/Images/main-back.jpg">
+    <div class="inside-hero" >
         <div class="main-top">
 
         </div>
@@ -36,83 +36,86 @@
     </div>
 
 </div>
-<section class="ha-waypoint" data-animate-down="ha-header-small" data-animate-up="ha-header-none"></section>
-<div class="clearfix" id="work"></div>
-<div style="width:100%;">
-    <center><img src="~/Content/Images/separator.png" /></center>
-</div>
-<div class="clearfix pad-bottom-20"></div>
-<div class="work pad-top-50">
-    <div class="clearfix"></div>
-    <div class="col-lg-3 col-sm-1 col-xs-1"></div>
-
-    <div class="col-lg-6 col-sm-10 col-xs-10 col-md-12">
-        <div class="chart-text ps-text">Photoshop </div>
-        <div class="chart-text ai-text">ILLUSTRATOR </div>
-        <div class="chart-text html-text">HTML5, css3 </div>
-        <div class="chart-text ang-text">angularjs </div>
-        <div class="chart-text usab-text">usability study </div>
-        <div class="chart-text usr-text">user research </div>
-        <div class="chart-text xa-text">xaml / c# </div>
-        <div id="hexagon-01" class="hexagonDC">
-        </div>
-        <div id="hexagon-02" class="hexagonDC1">
-        </div>
-        <div id="hexagon-03" class="hexagonDC2">
-        </div>
-        <div id="hexagon-04" class="hexagonDC3">
-        </div>
-        <div id="hexagon-05" class="hexagonDC4">
-        </div>
-        <div id="hexagon-06" class="hexagonDC5">
-        </div>
-        <div id="hexagon-07" class="hexagonDC6">
-        </div>
-
-        <div class="shadow">
-            <canvas></canvas>
-        </div>
-        <div class="chartImg img-responsive">
-            <img src="~/Content/Images/chart.png" class="img-responsive" />
-        </div>
+<div class="mainContent">
+    <section class="ha-waypoint" data-animate-down="ha-header-small" data-animate-up="ha-header-none"></section>
+    <div class="clearfix" id="work"></div>
+    <div style="width:100%;">
+        <center><img src="~/Content/Images/separator.png" /></center>
     </div>
-    <div class="clearfix"></div>
-</div>
-<div class="clearfix" id="portfolio"></div>
-<div style="width:100%;">
-    <center><img src="~/Content/Images/separator.png" /></center>
-</div>
-<div class="clearfix pad-bottom-20"></div>
-<div class="portfolio pad-top-50">
-    <div class="clearfix"></div>
-    <div class="col-lg-3 col-md-1 deco-left">
+    <div class="clearfix pad-bottom-20"></div>
+    <div class="work pad-top-50">
+        <div class="clearfix"></div>
+        <div class="col-lg-3 col-sm-1 col-xs-1"></div>
+
+        <div class="col-lg-6 col-sm-10 col-xs-10 col-md-12">
+            <div class="chart-text ps-text">Photoshop </div>
+            <div class="chart-text ai-text">ILLUSTRATOR </div>
+            <div class="chart-text html-text">HTML5, css3 </div>
+            <div class="chart-text ang-text">angularjs </div>
+            <div class="chart-text usab-text">usability study </div>
+            <div class="chart-text usr-text">user research </div>
+            <div class="chart-text xa-text">xaml / c# </div>
+            <div id="hexagon-01" class="hexagonDC">
+            </div>
+            <div id="hexagon-02" class="hexagonDC1">
+            </div>
+            <div id="hexagon-03" class="hexagonDC2">
+            </div>
+            <div id="hexagon-04" class="hexagonDC3">
+            </div>
+            <div id="hexagon-05" class="hexagonDC4">
+            </div>
+            <div id="hexagon-06" class="hexagonDC5">
+            </div>
+            <div id="hexagon-07" class="hexagonDC6">
+            </div>
+
+            <div class="shadow">
+                <canvas></canvas>
+            </div>
+            <div class="chartImg img-responsive">
+                <img src="~/Content/Images/chart.png" class="img-responsive" />
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix" id="portfolio"></div>
+    <div style="width:100%;">
+        <center><img src="~/Content/Images/separator.png" /></center>
+    </div>
+    <div class="clearfix pad-bottom-20"></div>
+    <div class="portfolio pad-top-50">
+        <div class="clearfix"></div>
+        <div class="col-lg-3 col-md-1 deco-left">
 
 
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+
+            <ul id="categories" class="clr">
+                <li>
+                </li>
+                <li ng-repeat="project in works.projects" ng-click="OpenModal(project)">
+                    <div class="portfolio-link">
+                        <img ng-src="{{project.mainImg}}" alt="" />
+                        <h1><a>{{project.title}}</a></h1>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+        <div class="col-lg-3 col-md-1 deco-right"></div>
+        <div class="clearfix"></div>
     </div>
 
-    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-
-        <ul id="categories" class="clr" >
-            <li>
-            </li>
-            <li ng-repeat="project in works.projects" ng-click="OpenModal(project)">
-                <div class="portfolio-link" >
-                    <img ng-src="{{project.mainImg}}" alt="" />
-                    <h1><a>{{project.title}}</a></h1>
-                </div>
-            </li>
-           
-        </ul>
+    <div class="clearfix" id="footer"></div>
+    <div style="width:100%;">
+        <center><img src="~/Content/Images/separator.png" /></center>
     </div>
-    <div class="col-lg-3 col-md-1 deco-right"></div>
-    <div class="clearfix"></div>
-</div>
+    <div class="clearfix pad-bottom-20"></div>
 
-<div class="clearfix" id="footer"></div>
-<div style="width:100%;">
-    <center><img src="~/Content/Images/separator.png" /></center>
 </div>
-<div class="clearfix pad-bottom-20"></div>
 <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">

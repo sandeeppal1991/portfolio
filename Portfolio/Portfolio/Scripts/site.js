@@ -7,9 +7,7 @@
 
 
 $(document).ready(function () {
-    $("#app").mCustomScrollbar({
-        theme: "dark"
-    });
+   
    
     window.setTimeout(function () {
         $("#hexagon-01").hexagonProgress({
