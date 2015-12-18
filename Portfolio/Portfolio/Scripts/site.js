@@ -252,5 +252,11 @@ var resize = function () {
 }
 
 function ScrollTo(id) {
-    $("html, body").animate({ scrollTop: $('#'+id).offset().top }, 1000);
+
+    if (id == 'mainBottom') {
+        $("html, body").animate({ scrollTop: $('#' + id).offset().top - 100 }, 1000);
+    }
+    else {
+        $("html, body").animate({ scrollTop: $('#' + id).offset().top }, 1000);
+    }
 }

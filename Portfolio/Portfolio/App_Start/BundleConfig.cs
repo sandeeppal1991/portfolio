@@ -20,9 +20,8 @@ namespace Portfolio
                          "~/Scripts/parallax.js",
                          "~/Scripts/header/modernizr.custom.js",
                          "~/Scripts/header/waypoints.min.js",
-                         "~/Scripts/SmoothScroll.js",
-                         "~/Scripts/scroll/jquery.mCustomScrollbar.js",
-                         "~/Scripts/scroll/jquery.mousewheel.min.js"));
+                         "~/Scripts/SmoothScroll.js"
+                         ));
 
             // Use the development version of Modernizr to develop with and learn from. Then, when you're
             // ready for production, use the build tool at http://modernizr.com to pick only the tests you need.
@@ -38,8 +37,8 @@ namespace Portfolio
                       "~/Content/site.css",
                       "~/Content/homeycombs.css",
                       "~/Content/component.css",
-                       "~/Content/normalize.css",
-                       "~/Content/jquery.mCustomScrollbar.css"));
+                       "~/Content/normalize.css"
+                       ));
         }
     }
 }
