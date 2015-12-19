@@ -15,26 +15,20 @@
             </nav>
         </div>
         <div class="ha-header-bottom">
-            <nav>
-                <a>Dalliance</a>
-                <a>Inglenook</a>
-                <a>Lagniappe</a>
-                <a>Mellifluous</a>
-                <a>Erstwhile</a>
-                <a>Wafture</a>
-                <a>Serendipity</a>
-                <a>Love</a>
-            </nav>
+            
         </div>
     </div>
 </header>
 <div class="hero" id="home">
     <div class="clearfix"></div>
-    <div class="inside-hero" data-parallax="scroll" data-image-src="/Content/Images/main-back.jpg">
+    <div class="inside-hero" >
         <div class="main-top">
-
+          <img src="~/Content/Images/p.png" class="pImg img-responsive" />
+            <div class="hexMain">
+                <img onclick="ScrollTo('mainBottom')" src="~/Content/Images/hex-turq.png" class="turqImg" />
+            </div>
         </div>
-        <div class="main-bottom">
+        <div class="main-bottom" id="mainBottom">
             <div class="clearfix"></div>
             <div class="col-lg-5 col-lg-offset-5 fancy-text"> I AM A UX DESIGNER AND DEVELOPER AND I LIKE SIMPLE GEOMETRIC SHAPES</div>
             <div class="clearfix"></div>
@@ -45,150 +39,86 @@
     </div>
 
 </div>
-<section class="ha-waypoint" data-animate-down="ha-header-small" data-animate-up="ha-header-none"></section>
-<div class="clearfix" id="work"></div>
-<div style="width:100%;">
-    <center><img src="~/Content/Images/separator.png" /></center>
-</div>
-<div class="clearfix pad-bottom-20"></div>
-<div class="work pad-top-50">
-    <div class="clearfix"></div>
-    <div class="col-lg-3 col-sm-1 col-xs-1"></div>
-
-    <div class="col-lg-6 col-sm-10 col-xs-10 col-md-12">
-        <div class="chart-text ps-text">Photoshop </div>
-        <div class="chart-text ai-text">ILLUSTRATOR </div>
-        <div class="chart-text html-text">HTML5, css3 </div>
-        <div class="chart-text ang-text">angularjs </div>
-        <div class="chart-text usab-text">usability study </div>
-        <div class="chart-text usr-text">user research </div>
-        <div class="chart-text xa-text">xaml / c# </div>
-        <div id="hexagon-01" class="hexagonDC">
-        </div>
-        <div id="hexagon-02" class="hexagonDC1">
-        </div>
-        <div id="hexagon-03" class="hexagonDC2">
-        </div>
-        <div id="hexagon-04" class="hexagonDC3">
-        </div>
-        <div id="hexagon-05" class="hexagonDC4">
-        </div>
-        <div id="hexagon-06" class="hexagonDC5">
-        </div>
-        <div id="hexagon-07" class="hexagonDC6">
-        </div>
-
-        <div class="shadow">
-            <canvas></canvas>
-        </div>
-        <div class="chartImg img-responsive">
-            <img src="~/Content/Images/chart.png" class="img-responsive" />
-        </div>
+<div class="mainContent">
+    <section class="ha-waypoint" data-animate-down="ha-header-small" data-animate-up="ha-header-none"></section>
+    <div class="clearfix" id="work"></div>
+    <div style="width:100%;">
+        <center><img src="~/Content/Images/separator.png" /></center>
     </div>
-    <div class="clearfix"></div>
-</div>
-<div class="clearfix" id="portfolio"></div>
-<div style="width:100%;">
-    <center><img src="~/Content/Images/separator.png" /></center>
-</div>
-<div class="clearfix pad-bottom-20"></div>
-<div class="portfolio pad-top-50">
-    <div class="clearfix"></div>
-    <div class="col-lg-3 col-md-1 deco-left">
+    <div class="clearfix pad-bottom-20"></div>
+    <div class="work pad-top-50">
+        <div class="clearfix"></div>
+        <div class="col-lg-3 col-sm-1 col-xs-1"></div>
+
+        <div class="col-lg-6 col-sm-10 col-xs-10 col-md-12">
+            <div class="chart-text ps-text">Photoshop </div>
+            <div class="chart-text ai-text">ILLUSTRATOR </div>
+            <div class="chart-text html-text">HTML5, css3 </div>
+            <div class="chart-text ang-text">angularjs </div>
+            <div class="chart-text usab-text">usability study </div>
+            <div class="chart-text usr-text">user research </div>
+            <div class="chart-text xa-text">xaml / c# </div>
+            <div id="hexagon-01" class="hexagonDC">
+            </div>
+            <div id="hexagon-02" class="hexagonDC1">
+            </div>
+            <div id="hexagon-03" class="hexagonDC2">
+            </div>
+            <div id="hexagon-04" class="hexagonDC3">
+            </div>
+            <div id="hexagon-05" class="hexagonDC4">
+            </div>
+            <div id="hexagon-06" class="hexagonDC5">
+            </div>
+            <div id="hexagon-07" class="hexagonDC6">
+            </div>
+
+            <div class="shadow">
+                <canvas></canvas>
+            </div>
+            <div class="chartImg img-responsive">
+                <img src="~/Content/Images/chart.png" class="img-responsive" />
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix" id="portfolio"></div>
+    <div style="width:100%;">
+        <center><img src="~/Content/Images/separator.png" /></center>
+    </div>
+    <div class="clearfix pad-bottom-20"></div>
+    <div class="portfolio pad-top-50">
+        <div class="clearfix"></div>
+        <div class="col-lg-3 col-md-1 deco-left">
 
 
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+
+            <ul id="categories" class="clr">
+                <li>
+                </li>
+                <li ng-repeat="project in works.projects" ng-click="OpenModal(project)">
+                    <div class="portfolio-link">
+                        <img ng-src="{{project.mainImg}}" alt="" />
+                        <h1><a>{{project.title}}</a></h1>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+        <div class="col-lg-3 col-md-1 deco-right"></div>
+        <div class="clearfix"></div>
     </div>
 
-    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-
-        <ul id="categories" class="clr">
-            <li>
-            </li>
-            <li>
-                <div>
-                    <img src="https://farm9.staticflickr.com/8461/8048823381_0fbc2d8efb.jpg" alt="" />
-                    <h1><a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">Modal 1</a></h1>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <img src="https://farm5.staticflickr.com/4144/5053682635_b348b24698.jpg" alt="" />
-                    <h1>This is a title</h1>
-                    <p>Some sample text about the article this hexagon leads to</p>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <img src="https://farm3.staticflickr.com/2827/10384422264_d9c7299146.jpg" alt="" />
-                    <h1>This is a title</h1>
-                    <p>Some sample text about the article this hexagon leads to</p>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <img src="https://farm7.staticflickr.com/6217/6216951796_e50778255c.jpg" alt="" />
-                    <h1>This is a title</h1>
-                    <p>Some sample text about the article this hexagon leads to</p>
-                </div>
-            </li>
-
-            <li>
-                <div>
-                    <img src="https://farm7.staticflickr.com/6083/6055581292_d94c2d90e3.jpg" alt="" />
-                    <h1>This is a title</h1>
-                    <p>Some sample text about the article this hexagon leads to</p>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <img src="https://farm7.staticflickr.com/6092/6227418584_d5883b0948.jpg" alt="" />
-                    <h1>This is a title</h1>
-                    <p>Some sample text about the article this hexagon leads to</p>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <img src="https://farm8.staticflickr.com/7187/6895047173_d4b1a0d798.jpg" alt="" />
-                    <h1>This is a title</h1>
-                    <p>Some sample text about the article this hexagon leads to</p>
-                </div>
-            </li>
-            <li>
-
-            </li>
-            <li>
-                <div>
-                    <img src="https://farm8.staticflickr.com/7187/6895047173_d4b1a0d798.jpg" alt="" />
-                    <h1>This is a title</h1>
-                    <p>Some sample text about the article this hexagon leads to</p>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <img src="https://farm8.staticflickr.com/7187/6895047173_d4b1a0d798.jpg" alt="" />
-                    <h1>This is a title</h1>
-                    <p>Some sample text about the article this hexagon leads to</p>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <img src="https://farm8.staticflickr.com/7187/6895047173_d4b1a0d798.jpg" alt="" />
-                    <h1>This is a title</h1>
-                    <p>Some sample text about the article this hexagon leads to</p>
-                </div>
-            </li>
-
-        </ul>
+    <div class="clearfix" id="footer"></div>
+    <div style="width:100%;">
+        <center><img src="~/Content/Images/separator.png" /></center>
     </div>
-    <div class="col-lg-3 col-md-1 deco-right"></div>
-    <div class="clearfix"></div>
-</div>
+    <div class="clearfix pad-bottom-20"></div>
 
-<div class="clearfix" id="footer"></div>
-<div style="width:100%;">
-    <center><img src="~/Content/Images/separator.png" /></center>
 </div>
-<div class="clearfix pad-bottom-20"></div>
 <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -201,30 +131,10 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>{{firstName}}</h2>
+                        <h2>{{modalData.title}}</h2>
                         <hr class="star-primary">
                         <img src="~/Content/Images/main-back.jpg" class="img-responsive img-centered" alt="">
-                        <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                        <ul class="list-inline item-details">
-                            <li>
-                                Client:
-                                <strong>
-                                    <a href="http://startbootstrap.com">Start Bootstrap</a>
-                                </strong>
-                            </li>
-                            <li>
-                                Date:
-                                <strong>
-                                    <a href="http://startbootstrap.com">April 2014</a>
-                                </strong>
-                            </li>
-                            <li>
-                                Service:
-                                <strong>
-                                    <a href="http://startbootstrap.com">Web Development</a>
-                                </strong>
-                            </li>
-                        </ul>
+                        
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                     </div>
                 </div>

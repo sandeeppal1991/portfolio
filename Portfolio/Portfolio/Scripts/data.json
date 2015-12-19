@@ -1,0 +1,173 @@
+﻿{
+  "projects": [
+    {
+      "title": "1",
+      "description": "Lorem Ipsum",
+      "shortDesc": "Lorem",
+      "mainImg": "/Content/Images/wooplr.jpg",
+      "sections": [
+        {
+          "title": "Section 1",
+          "type": "1",
+          "text": [ "abc", "def" ],
+          "images": [ "src1", "src2" ]
+        },{
+          "title": "Section 1",
+          "type": "1",
+          "text": [ "abc", "def" ],
+          "images": [ "src1", "src2" ]
+        },{
+          "title": "Section 1",
+          "type": "1",
+          "text": [ "abc", "def" ],
+          "images": [ "src1", "src2" ]
+        }
+
+      ]
+    }, {
+      "title": "2",
+      "description": "Lorem Ipsum",
+      "shortDesc": "Lorem",
+      "mainImg": "/Content/Images/wooplr.jpg",
+      "sections": [
+        {
+          "title": "Section 1",
+          "type": "1",
+          "text": [ "abc", "def" ],
+          "images": [ "src1", "src2" ]
+        },{
+          "title": "Section 1",
+          "type": "1",
+          "text": [ "abc", "def" ],
+          "images": [ "src1", "src2" ]
+        },{
+          "title": "Section 1",
+          "type": "1",
+          "text": [ "abc", "def" ],
+          "images": [ "src1", "src2" ]
+        }
+
+      ]
+    }, {
+      "title": "3",
+      "description": "Lorem Ipsum",
+      "shortDesc": "Lorem",
+      "mainImg": "/Content/Images/wooplr.jpg",
+      "sections": [
+        {
+          "title": "Section 1",
+          "type": "1",
+          "text": [ "abc", "def" ],
+          "images": [ "src1", "src2" ]
+        },{
+          "title": "Section 1",
+          "type": "1",
+          "text": [ "abc", "def" ],
+          "images": [ "src1", "src2" ]
+        },{
+          "title": "Section 1",
+          "type": "1",
+          "text": [ "abc", "def" ],
+          "images": [ "src1", "src2" ]
+        }
+
+      ]
+    }, {
+      "title": "4",
+      "description": "Lorem Ipsum",
+      "shortDesc": "Lorem",
+      "mainImg": "/Content/Images/wooplr.jpg",
+      "sections": [
+        {
+          "title": "Section 1",
+          "type": "1",
+          "text": [ "abc", "def" ],
+          "images": [ "src1", "src2" ]
+        },{
+          "title": "Section 1",
+          "type": "1",
+          "text": [ "abc", "def" ],
+          "images": [ "src1", "src2" ]
+        },{
+          "title": "Section 1",
+          "type": "1",
+          "text": [ "abc", "def" ],
+          "images": [ "src1", "src2" ]
+        }
+
+      ]
+    }, {
+      "title": "5",
+      "description": "Lorem Ipsum",
+      "shortDesc": "Lorem",
+      "mainImg": "/Content/Images/wooplr.jpg",
+      "sections": [
+        {
+          "title": "Section 1",
+          "type": "1",
+          "text": [ "abc", "def" ],
+          "images": [ "src1", "src2" ]
+        },{
+          "title": "Section 1",
+          "type": "1",
+          "text": [ "abc", "def" ],
+          "images": [ "src1", "src2" ]
+        },{
+          "title": "Section 1",
+          "type": "1",
+          "text": [ "abc", "def" ],
+          "images": [ "src1", "src2" ]
+        }
+
+      ]
+    }, {
+      "title": "6",
+      "description": "Lorem Ipsum",
+      "shortDesc": "Lorem",
+      "mainImg": "/Content/Images/wooplr.jpg",
+      "sections": [
+        {
+          "title": "Section 1",
+          "type": "1",
+          "text": [ "abc", "def" ],
+          "images": [ "src1", "src2" ]
+        },{
+          "title": "Section 1",
+          "type": "1",
+          "text": [ "abc", "def" ],
+          "images": [ "src1", "src2" ]
+        },{
+          "title": "Section 1",
+          "type": "1",
+          "text": [ "abc", "def" ],
+          "images": [ "src1", "src2" ]
+        }
+
+      ]
+    }, {
+      "title": "7",
+      "description": "Lorem Ipsum",
+      "shortDesc": "Lorem",
+      "mainImg": "/Content/Images/wooplr.jpg",
+      "sections": [
+        {
+          "title": "Section 1",
+          "type": "1",
+          "text": [ "abc", "def" ],
+          "images": [ "src1", "src2" ]
+        },{
+          "title": "Section 1",
+          "type": "1",
+          "text": [ "abc", "def" ],
+          "images": [ "src1", "src2" ]
+        },{
+          "title": "Section 1",
+          "type": "1",
+          "text": [ "abc", "def" ],
+          "images": [ "src1", "src2" ]
+        }
+
+      ]
+    }
+  ]
+}

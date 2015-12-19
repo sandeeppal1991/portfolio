@@ -2,11 +2,12 @@
     
     $(window).load(function () {
         window.setTimeout(function () { $('.preloaderBody').fadeOut('slow', function () { $(this).remove(); }); }, 2000);
+        
     });
 
 
 $(document).ready(function () {
-
+   
    
     window.setTimeout(function () {
         $("#hexagon-01").hexagonProgress({
@@ -251,5 +252,11 @@ var resize = function () {
 }
 
 function ScrollTo(id) {
-    $("html, body").animate({ scrollTop: $('#'+id).offset().top }, 1000);
+
+    if (id == 'mainBottom') {
+        $("html, body").animate({ scrollTop: $('#' + id).offset().top - 100 }, 1000);
+    }
+    else {
+        $("html, body").animate({ scrollTop: $('#' + id).offset().top }, 1000);
+    }
 }
