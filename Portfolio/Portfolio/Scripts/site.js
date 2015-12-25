@@ -8,7 +8,16 @@
 
 $(document).ready(function () {
    
-   
+    $(".goLeft").hover(function () {
+        $(this).css("left", "-100px");
+        $(this).next("span").css("opacity", "1");
+        console.log(this);
+
+    }, function () {
+        $(this).css("left", "0px");
+        $(this).next("span").css("opacity", "0");
+    });
+ 
     window.setTimeout(function () {
         $("#hexagon-01").hexagonProgress({
             value: 0.5 * (0.8),

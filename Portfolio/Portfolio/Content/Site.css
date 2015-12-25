@@ -38,7 +38,7 @@ textarea {
     position: relative;
     height: 200vh;
     width: 100%;
-    margin-bottom:-2px;
+    margin-bottom: -2px;
 }
 
 .hero-img {
@@ -612,21 +612,22 @@ h3 {
         top: 0;
         left: 0;
         height: 10vh;
-        display:none;
+        display: none;
     }
 
     .dots1 {
         position: absolute;
         top: 5% !important;
         height: 30vh;
-        display:none;
+        display: none;
     }
-    .pImg{
-        position:absolute;
-        top:2%;
-        left:100px;
-        height:50vh;
-        display:none;
+
+    .pImg {
+        position: absolute;
+        top: 2%;
+        left: 100px;
+        height: 50vh;
+        display: none;
     }
 }
 
@@ -641,14 +642,14 @@ h3 {
         background-size: cover;
     }
 
-   
 
-    .pImg{
-        position:absolute;
-        top:2%;
-        left:100px;
-        height:50vh;
-        display:none;
+
+    .pImg {
+        position: absolute;
+        top: 2%;
+        left: 100px;
+        height: 50vh;
+        display: none;
     }
 }
 
@@ -679,20 +680,20 @@ h3 {
 
 
 
-.pImg{
-    position:absolute;
-    left:0;
-    top:0;
+.pImg {
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
-.hexMain{
-    height:153px;
-    width:153px;
-    background-image:url('/Content/Images/hex-white.png');
-    background-repeat:no-repeat;
-    position:absolute;
-    left:37.3%;
-    top:3%;
+.hexMain {
+    height: 153px;
+    width: 153px;
+    background-image: url('/Content/Images/hex-white.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 706px;
+    top: 83px;
     -webkit-transition-property: -webkit-transform;
     -webkit-transition-duration: 1s;
     -moz-transition-property: -moz-transform;
@@ -701,39 +702,108 @@ h3 {
     transition-duration: 1s;
 }
 
-.turqImg{
-    position:absolute;
-    top:43%;
-    left:34%;
-    
+.turqImg {
+    position: absolute;
+    top: 43%;
+    left: 34%;
 }
 
-.turqImg:hover{
-     -webkit-animation-name: rotate; 
-    -webkit-animation-duration: 2s; 
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    -moz-animation-name: rotate; 
-    -moz-animation-duration: 2s; 
-    -moz-animation-iteration-count: infinite;
-    -moz-animation-timing-function: linear;
-    animation-name: rotate; 
-    animation-duration: 2s; 
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    cursor:pointer;
-}
+    .turqImg:hover {
+        -webkit-animation-name: rotate;
+        -webkit-animation-duration: 2s;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-name: rotate;
+        -moz-animation-duration: 2s;
+        -moz-animation-iteration-count: infinite;
+        -moz-animation-timing-function: linear;
+        animation-name: rotate;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        cursor: pointer;
+    }
+
 @-webkit-keyframes rotate {
-    from {-webkit-transform: rotate(0deg);}
-    to {-webkit-transform: rotate(360deg);}
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+    }
 }
 
 @-moz-keyframes rotate {
-    from {-moz-transform: rotate(0deg);}
-    to {-moz-transform: rotate(360deg);}
+    from {
+        -moz-transform: rotate(0deg);
+    }
+
+    to {
+        -moz-transform: rotate(360deg);
+    }
 }
 
 @keyframes rotate {
-    from {transform: rotate(0deg);}
-    to {transform: rotate(360deg);}
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.heroText {
+    position: absolute;
+    top: 320px;
+    left: 323px;
+    text-align: center;
+    font-family: 'Moderne Sans';
+    color: #FFF;
+    font-size: 2em;
+}
+
+.nameText {
+    font-size: 1.5em;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 5px dotted rgba(255,255,255,0.5);
+}
+
+.titleText {
+    padding-top: 20px;
+}
+
+.heroRight {
+    position: absolute;
+    top: 15%;
+    right: 20%;
+    color: #FFF;
+    font-size: 1.5em;
+    letter-spacing: 5px;
+}
+
+    .heroRight span {
+        margin-left: -50px;
+        transition: opacity linear 0.5s;
+        opacity: 0;
+    }
+
+    .heroRight div {
+        padding-bottom: 40px;
+    }
+
+    .heroRight img {
+        position: relative;
+        cursor: pointer;
+        left: 0px;
+        transition: left linear 0.5s;
+    }
+
+
+.heroMeImg {
+    position: absolute;
+    left: 641px;
+    top: 643px;
 }
