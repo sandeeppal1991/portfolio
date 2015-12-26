@@ -279,7 +279,9 @@
     <Content Include="AnimatedMenuIcon\fonts\codropsicons\codropsicons.woff" />
     <Content Include="AnimatedMenuIcon\README.md" />
     <Content Include="Scripts\data.json" />
+    <None Include="Properties\PublishProfiles\sandeeppal - FTP %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\sandeeppal - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\sandeeppal - Web Deploy %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\sandeeppal - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\chart\jquery.hexagonprogress.js" />
