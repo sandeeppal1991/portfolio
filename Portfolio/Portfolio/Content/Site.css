@@ -1,7 +1,7 @@
 ﻿body {
     padding-top: 0px;
     padding-bottom: 0px;
-    font-family: 'Segoe UI';
+    font-family: 'Segoe UI','Open Sans', Arial;
     -webkit-font-smoothing: subpixel-antialiased;
     -moz-osx-font-smoothing: auto;
     font-smooth: 0.5em;
@@ -132,7 +132,7 @@ textarea {
 .shadow {
     -webkit-box-shadow: 0 8px 6px -6px black;
     -moz-box-shadow: 0 8px 6px -6px black;
-    box-shadow: 10px 0 10px -10px rgba(0,0,0,0.3);
+    box-shadow: 10px 0 10px -10px rgba(0,0,0,0.2);
     width: 100%;
     height: 20px;
     position: relative;
@@ -140,7 +140,7 @@ textarea {
 }
 
     .shadow canvas {
-        box-shadow: 0 20px 20px -15px rgba(0,0,0,0.3);
+        box-shadow: 0 20px 20px -15px rgba(0,0,0,0.2);
         width: 700pt;
     }
 
@@ -232,6 +232,8 @@ textarea {
     .chartImg {
         display: none;
     }
+
+    
 }
 
 @media(max-width :1200px) {
@@ -248,7 +250,7 @@ textarea {
         width: 100%;
         -webkit-box-shadow: 0 8px 6px -6px black;
         -moz-box-shadow: 0 8px 6px -6px black;
-        box-shadow: 0 20px 20px -12px rgba(0,0,0,0.3);
+        box-shadow: 0 20px 20px -12px rgba(0,0,0,0.2);
     }
 
     .hexagonDC {
@@ -291,7 +293,7 @@ textarea {
         width: 100%;
         -webkit-box-shadow: 0 8px 6px -6px black;
         -moz-box-shadow: 0 8px 6px -6px black;
-        box-shadow: 0 20px 20px -12px rgba(0,0,0,0.3);
+        box-shadow: 0 20px 20px -12px rgba(0,0,0,0.2);
     }
 
     .hexagonDC {
@@ -338,7 +340,7 @@ textarea {
         width: 100%;
         -webkit-box-shadow: 0 8px 6px -6px black;
         -moz-box-shadow: 0 8px 6px -6px black;
-        box-shadow: 0 20px 20px -12px rgba(0,0,0,0.3);
+        box-shadow: 0 20px 20px -12px rgba(0,0,0,0.2);
     }
 
     .hexagonDC {
@@ -684,7 +686,7 @@ h3 {
     position: absolute;
     left: 0px;
     top: 0px;
-    opacity:0.7;
+    opacity: 0.7;
 }
 
 .hexMain {
@@ -807,4 +809,918 @@ h3 {
     position: absolute;
     left: 641px;
     top: 643px;
+}
+.heroRightIphone{
+        display:none;
+    }
+@media only screen and (max-width:768px) and (orientation : portrait) {
+    .heroMeImg {
+        position: absolute;
+        top: 7%;
+        left: 45%;
+        height: 6%;
+    }
+
+    .heroRight {
+        position: absolute;
+        left: 45%;
+        top: 25%;
+    }
+
+    .hexMain {
+        position: absolute;
+        top: 7%;
+        left: 45%;
+        height: 6%;
+        background-size: contain;
+        opacity: 0.5;
+        transition: opacity ease 0.5s;
+    }
+
+        .hexMain:hover {
+            opacity: 1.0;
+        }
+
+    .hero-img {
+        bottom: -1px;
+    }
+}
+
+@media only screen and (max-width:1200px) and (orientation : portrait) {
+    .heroMeImg {
+        position: absolute;
+        top: 5%;
+        left: 43%;
+        height: 6%;
+    }
+
+    .heroRight {
+        position: absolute;
+        left: 45%;
+        top: 25%;
+    }
+
+    .hexMain {
+        position: absolute;
+        top: 5%;
+        left: 43%;
+        height: 6%;
+        background-size: contain;
+        opacity: 0.5;
+        transition: opacity ease 0.5s;
+    }
+
+        .hexMain:hover {
+            opacity: 1.0;
+        }
+
+    .hero-img {
+        bottom: -1px;
+    }
+}
+
+@media only screen and (max-width:1366px) and (orientation : landscape) {
+
+
+    .pImg {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        opacity: 0.7;
+        display: block;
+        width: 40%;
+        height: auto;
+    }
+
+    .hero-img {
+        bottom: -1px;
+    }
+
+    .hexMain {
+        height: 100px;
+        width: 100px;
+        background-image: url('/Content/Images/hex-white.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        left: 465px;
+        top: 55px;
+        -webkit-transition-property: -webkit-transform;
+        -webkit-transition-duration: 1s;
+        -moz-transition-property: -moz-transform;
+        -moz-transition-duration: 1s;
+        transition-property: transform;
+        transition-duration: 1s;
+    }
+
+    .turqImg {
+        position: absolute;
+        top: 43%;
+        left: 34%;
+        height: 16px;
+    }
+
+        .turqImg:hover {
+            -webkit-animation-name: rotate;
+            -webkit-animation-duration: 2s;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-timing-function: linear;
+            -moz-animation-name: rotate;
+            -moz-animation-duration: 2s;
+            -moz-animation-iteration-count: infinite;
+            -moz-animation-timing-function: linear;
+            animation-name: rotate;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            cursor: pointer;
+        }
+
+    @-webkit-keyframes rotate {
+        from {
+            -webkit-transform: rotate(0deg);
+        }
+
+        to {
+            -webkit-transform: rotate(360deg);
+        }
+    }
+
+    @-moz-keyframes rotate {
+        from {
+            -moz-transform: rotate(0deg);
+        }
+
+        to {
+            -moz-transform: rotate(360deg);
+        }
+    }
+
+    @keyframes rotate {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    .heroText {
+        position: absolute;
+        top: 180px;
+        left: 190px;
+        text-align: center;
+        font-family: 'Moderne Sans';
+        color: #FFF;
+        font-size: 1.5em;
+    }
+
+    .nameText {
+        font-size: 1.5em;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        border-bottom: 5px dotted rgba(255,255,255,0.5);
+    }
+
+    .titleText {
+        padding-top: 20px;
+    }
+
+    .heroRight {
+        position: absolute;
+        top: 15%;
+        right: 15%;
+        color: #FFF;
+        font-size: 1.5em;
+        letter-spacing: 5px;
+    }
+
+        .heroRight span {
+            margin-left: -50px;
+            transition: opacity linear 0.5s;
+            opacity: 0;
+        }
+
+        .heroRight div {
+            padding-bottom: 40px;
+        }
+
+        .heroRight img {
+            position: relative;
+            cursor: pointer;
+            left: 0px;
+            transition: left linear 0.5s;
+            height: 80px;
+        }
+
+    .chartImg {
+        width: 65%;
+        position: relative;
+        left: 12%;
+    }
+
+    .heroMeImg {
+        position: absolute;
+        left: 440px;
+        top: 430px;
+        height: 150px;
+    }
+
+    .fancy-text {
+        font-size: 3em;
+        position: relative;
+        top: 0px;
+    }
+
+    #categories {
+        left: -10px !important;
+    }
+
+    .hexagonDC {
+        width: 600pt;
+        height: 600pt;
+        margin: 5px;
+        padding-bottom: 500pt;
+        transform: rotate(90deg);
+    }
+
+    .hexagonDC1 {
+        position: relative;
+        top: -569pt;
+        left: 28pt;
+        width: 540pt;
+        height: 535pt;
+        margin: 5px;
+        transform: rotate(90deg);
+        overflow-y: hidden;
+    }
+
+    .hexagonDC2 {
+        position: relative;
+        top: -1078pt;
+        left: 60pt;
+        width: 480pt;
+        height: 475pt;
+        margin: 5px;
+        transform: rotate(90deg);
+        overflow-y: hidden;
+    }
+
+    .hexagonDC3 {
+        position: relative;
+        top: -1526pt;
+        left: 90pt;
+        width: 420pt;
+        height: 415pt;
+        margin: 5px;
+        transform: rotate(90deg);
+        overflow-y: hidden;
+    }
+
+    .hexagonDC4 {
+        position: relative;
+        top: -1914.5pt;
+        left: 120pt;
+        width: 360pt;
+        height: 355pt;
+        margin: 5px;
+        transform: rotate(90deg);
+        overflow-y: hidden;
+    }
+
+    .hexagonDC5 {
+        position: relative;
+        top: -2243.5pt;
+        left: 150pt;
+        width: 300pt;
+        height: 295pt;
+        margin: 5px;
+        transform: rotate(90deg);
+        overflow-y: hidden;
+    }
+
+    .hexagonDC6 {
+        position: relative;
+        top: -2512pt;
+        left: 180pt;
+        width: 240pt;
+        height: 235pt;
+        margin: 5px;
+        transform: rotate(90deg);
+        overflow-y: hidden;
+    }
+
+    .shadow canvas {
+        position: relative;
+        top: -186px;
+        width: 600pt;
+    }
+
+    .ps-text {
+        top: 215px;
+        left: 725px;
+        color: #35564F;
+        transform: rotate(31deg);
+    }
+
+    .ai-text {
+        top: 78px;
+        left: 300px;
+        color: #43635C;
+        transform: rotate(-31deg);
+    }
+
+    .html-text {
+        width: 200px;
+        top: 237px;
+        left: 575px;
+        color: #507069;
+        transform: rotate(31deg);
+    }
+
+    .ang-text {
+        top: 260px;
+        left: 600px;
+        color: #5E7F78;
+        transform: rotate(30deg);
+    }
+
+    .usab-text {
+        top: 210px;
+        left: 415px;
+        color: #709089;
+        transform: rotate(31deg);
+    }
+
+    .usr-text {
+        width: 250px;
+        top: 310px;
+        left: 465px;
+        color: #83A49D;
+        transform: rotate(31deg);
+    }
+
+    .xa-text {
+        top: 280px;
+        left: 405px;
+        color: #9CBDB5;
+        transform: rotate(31deg);
+    }
+}
+
+@media only screen and (max-width:1024px) and (orientation : landscape) {
+
+
+    .pImg {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        opacity: 0.7;
+        display: block;
+        width: 40%;
+        height: auto;
+    }
+
+    .hero-img {
+        bottom: -1px;
+    }
+
+    .hexMain {
+        height: 73px;
+        width: 73px;
+        background-image: url('/Content/Images/hex-white.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        left: 375px;
+        top: 45px;
+        -webkit-transition-property: -webkit-transform;
+        -webkit-transition-duration: 1s;
+        -moz-transition-property: -moz-transform;
+        -moz-transition-duration: 1s;
+        transition-property: transform;
+        transition-duration: 1s;
+    }
+
+    .turqImg {
+        position: absolute;
+        top: 43%;
+        left: 34%;
+        height: 13px;
+    }
+
+        .turqImg:hover {
+            -webkit-animation-name: rotate;
+            -webkit-animation-duration: 2s;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-timing-function: linear;
+            -moz-animation-name: rotate;
+            -moz-animation-duration: 2s;
+            -moz-animation-iteration-count: infinite;
+            -moz-animation-timing-function: linear;
+            animation-name: rotate;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            cursor: pointer;
+        }
+
+    @-webkit-keyframes rotate {
+        from {
+            -webkit-transform: rotate(0deg);
+        }
+
+        to {
+            -webkit-transform: rotate(360deg);
+        }
+    }
+
+    @-moz-keyframes rotate {
+        from {
+            -moz-transform: rotate(0deg);
+        }
+
+        to {
+            -moz-transform: rotate(360deg);
+        }
+    }
+
+    @keyframes rotate {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    .heroText {
+        position: absolute;
+        top: 150px;
+        left: 165px;
+        text-align: center;
+        font-family: 'Moderne Sans';
+        color: #FFF;
+        font-size: 1.7em;
+    }
+
+    .nameText {
+        font-size: 1.5em;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        border-bottom: 5px dotted rgba(255,255,255,0.5);
+    }
+
+    .titleText {
+        padding-top: 20px;
+    }
+
+    .heroRight {
+        position: absolute;
+        top: 15%;
+        right: 20%;
+        color: #FFF;
+        font-size: 1.5em;
+        letter-spacing: 5px;
+    }
+
+        .heroRight span {
+            margin-left: -50px;
+            transition: opacity linear 0.5s;
+            opacity: 0;
+        }
+
+        .heroRight div {
+            padding-bottom: 40px;
+        }
+
+        .heroRight img {
+            position: relative;
+            cursor: pointer;
+            left: 0px;
+            transition: left linear 0.5s;
+            height: 70px;
+        }
+
+    .chartImg {
+        width: 75%;
+        position: relative;
+        left: 12%;
+    }
+
+    .heroMeImg {
+        position: absolute;
+        left: 340px;
+        top: 343px;
+        height: 150px;
+    }
+
+    .fancy-text {
+        font-size: 4em;
+        position: relative;
+        top: 100px;
+    }
+
+    #categories {
+        left: -10px !important;
+    }
+}
+
+@media screen and (max-width: 768px) and (orientation : landscape){
+    .workTiles{
+        width:60% !important;
+        float:left;
+    }
+    .deco-left{
+        display:block;
+        width:20%;
+    }
+    .deco-right{
+        display:block;
+        width:20%;
+    }
+    .portfolio{
+        margin-bottom:50px;
+    }
+    .main-top{
+        height:50%;
+    }
+    .hero{
+        height:150vh;
+    }
+    .work{
+        height:600px;
+    }
+}
+
+@media only screen and (max-width:450px) and (orientation : portrait) {
+    .heroMeImg {
+        position: absolute;
+        top: 5%;
+        left: 42%;
+        height: 6%;
+    }
+
+    .heroRight {
+        position: absolute;
+        left: 43%;
+        top: 27%;
+    }
+    .heroRight img{
+        width:65px;       
+    }
+    .heroRight div{
+        padding-bottom:30px;
+    }
+
+    .hexMain {
+        position: absolute;
+        top: 5%;
+        left: 42%;
+        height: 6.1%;
+        background-size: contain;
+        opacity: 0.5;
+        transition: opacity ease 0.5s;
+    }
+
+        .hexMain:hover {
+            opacity: 1.0;
+        }
+
+    .hero-img {
+        bottom: -1px;
+    }
+    .heroText{
+        position:absolute;
+        top:13%;
+        left:30%;
+        font-size:1.5em;
+        background-color:rgba(255,255,255,0.7);
+        padding:20px;
+        border:2px dashed #fff;
+        color:#567970;
+    }
+    .turqImg{
+        width:13px;
+        left:22%
+    }
+    .fancy-text{
+        width:60%;
+        margin-right:10%;
+        float:right;
+    }
+    .nameText {
+    font-size: 1.5em;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px dotted rgba(86,121,112,0.5);
+}
+}
+@media only screen and (max-width:360px) and (orientation : portrait) {
+    .heroMeImg {
+        position: absolute;
+        top: 5%;
+        left: 42%;
+        height: 6%;
+    }
+
+    .heroRight {
+        position: absolute;
+        left: 43%;
+        top: 30%;
+    }
+    .heroRight img{
+        width:50px;       
+    }
+    .heroRight div{
+        padding-bottom:30px;
+    }
+    .heroRightIphone{
+        display:none;
+    }
+    .hexMain {
+        position: absolute;
+        top: 5%;
+        left: 42%;
+        height: 6.1%;
+        background-size: contain;
+        opacity: 0.5;
+        transition: opacity ease 0.5s;
+    }
+
+        .hexMain:hover {
+            opacity: 1.0;
+        }
+
+    .hero-img {
+        bottom: -1px;
+    }
+    .heroText{
+        position:absolute;
+        top:13%;
+        left:27%;
+        font-size:1.5em;
+        background-color:rgba(255,255,255,0.7);
+        padding:20px;
+        border:2px dashed #fff;
+        color:#567970;
+    }
+    .turqImg{
+        width:13px;
+        left:19%
+    }
+    .fancy-text{
+        width:60%;
+        margin-right:10%;
+        float:right;
+    }
+    .nameText {
+    font-size: 1.5em;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px dotted rgba(86,121,112,0.5);
+}
+}
+@media only screen and (max-width:320px) and (orientation : portrait) {
+    .heroMeImg {
+        position: absolute;
+        top: 4%;
+        left: 42%;
+        height: 6%;
+    }
+
+    .heroRightIphone {
+        position: absolute;
+        left: 11%;
+        top: 35%;
+        display:block;
+    }
+    .heroRightIphone img{
+        width:50px;       
+    }
+    .heroRightIphone div{
+        padding-bottom:30px;
+    }
+
+    .heroRight{
+        display:none;
+    }
+
+    .heroRightIphone div{
+        float:left;
+        margin-left:25px;
+    }
+
+    .hexMain {
+        position: absolute;
+        top: 4%;
+        left: 42%;
+        height: 6.1%;
+        background-size: contain;
+        opacity: 0.5;
+        transition: opacity ease 0.5s;
+    }
+
+        .hexMain:hover {
+            opacity: 1.0;
+        }
+     
+    .hero-img {
+        bottom: -1px;
+    }
+    .heroText{
+        position:absolute;
+        top:12%;
+        left:23%;
+        font-size:1.5em;
+        background-color:rgba(255,255,255,0.7);
+        padding:20px;
+        border:2px dashed #fff;
+        color:#567970;
+    }
+    .turqImg{
+        width:13px;
+        left:12%
+    }
+    .fancy-text{
+        width:60%;
+        margin-right:10%;
+        float:right;
+        font-size:2.5em;
+    }
+    .nameText {
+    font-size: 1.5em;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px dotted rgba(86,121,112,0.5);
+}
+}
+@media only screen and (max-width:1366px) and (orientation : landscape) {
+
+
+    .pImg {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        opacity: 0.7;
+        display: block;
+        width: 40%;
+        height: auto;
+    }
+
+    .hero-img {
+        bottom: -1px;
+    }
+
+    .hexMain {
+        height: 73px;
+        width: 73px;
+        background-image: url('/Content/Images/hex-white.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        left: 505px;
+        top: 90px;
+        -webkit-transition-property: -webkit-transform;
+        -webkit-transition-duration: 1s;
+        -moz-transition-property: -moz-transform;
+        -moz-transition-duration: 1s;
+        transition-property: transform;
+        transition-duration: 1s;
+    }
+
+    .turqImg {
+        position: absolute;
+        top: 43%;
+        left: 34%;
+        height: 13px;
+    }
+
+        .turqImg:hover {
+            -webkit-animation-name: rotate;
+            -webkit-animation-duration: 2s;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-timing-function: linear;
+            -moz-animation-name: rotate;
+            -moz-animation-duration: 2s;
+            -moz-animation-iteration-count: infinite;
+            -moz-animation-timing-function: linear;
+            animation-name: rotate;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            cursor: pointer;
+        }
+
+    @-webkit-keyframes rotate {
+        from {
+            -webkit-transform: rotate(0deg);
+        }
+
+        to {
+            -webkit-transform: rotate(360deg);
+        }
+    }
+
+    @-moz-keyframes rotate {
+        from {
+            -moz-transform: rotate(0deg);
+        }
+
+        to {
+            -moz-transform: rotate(360deg);
+        }
+    }
+
+    @keyframes rotate {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    .heroText {
+        position: absolute;
+        top: 210px;
+        left: 220px;
+        text-align: center;
+        font-family: 'Moderne Sans';
+        color: #FFF;
+        font-size: 1.3em;
+    }
+
+    .nameText {
+        font-size: 1.5em;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        border-bottom: 5px dotted rgba(255,255,255,0.5);
+    }
+
+    .titleText {
+        padding-top: 20px;
+    }
+
+    .heroRight {
+        position: absolute;
+        top: 15%;
+        right: 20%;
+        color: #FFF;
+        font-size: 1.5em;
+        letter-spacing: 5px;
+    }
+
+        .heroRight span {
+            margin-left: -50px;
+            transition: opacity linear 0.5s;
+            opacity: 0;
+        }
+
+        .heroRight div {
+            padding-bottom: 40px;
+        }
+
+        .heroRight img {
+            position: relative;
+            cursor: pointer;
+            left: 0px;
+            transition: left linear 0.5s;
+            height: 70px;
+        }
+
+    .chartImg {
+        width: 75%;
+        position: relative;
+        left: 12%;
+    }
+
+    .heroMeImg {
+        position: absolute;
+        left: 470px;
+        top: 443px;
+        height: 150px;
+    }
+
+    .fancy-text {
+        font-size: 3em;
+        position: relative;
+        top: 0px;
+    }
+
+    #categories {
+        left: -10px !important;
+    }
+}
+
+.work{
+    opacity:0;
+    transition:opacity ease 1s;
+}
+
+.modalMainType1{
+
 }

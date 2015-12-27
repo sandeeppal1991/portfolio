@@ -36,13 +36,18 @@
                 <div onclick="ScrollTo('portfolio')"><img class="goLeft" src="~/Content/Images/work.png" /><span>WORK</span></div>
                 <div onclick="ScrollTo('footer')"><img class="goLeft" src="~/Content/Images/contact.png" /><span>CONTACT</span></div>
             </div>
+            <div class="heroRightIphone">
+                <div onclick="ScrollTo('work')"><img class="goLeft" src="~/Content/Images/skills.png" /> </div>
+                <div onclick="ScrollTo('portfolio')"><img class="goLeft" src="~/Content/Images/work.png" /></div>
+                <div onclick="ScrollTo('footer')"><img class="goLeft" src="~/Content/Images/contact.png" /></div>
+            </div>
             <div class="hexMain">
                 <img onclick="ScrollTo('mainBottom')" src="~/Content/Images/hex-turq.png" class="turqImg" />
             </div>
         </div>
         <div class="main-bottom" id="mainBottom">
             <div class="clearfix"></div>
-            <div class="col-lg-5 col-lg-offset-5 fancy-text"> I AM A UX DESIGNER AND DEVELOPER AND I LIKE SIMPLE GEOMETRIC SHAPES</div>
+            <div class="col-lg-5 col-lg-offset-5 fancy-text col-md-5 col-md-offset-6"> I AM A UX DESIGNER AND DEVELOPER AND I LIKE SIMPLE GEOMETRIC SHAPES</div>
             <div class="clearfix"></div>
         </div>
         <div class="clearfix"></div>
@@ -52,12 +57,13 @@
 
 </div>
 <div class="mainContent">
-    <section class="ha-waypoint" data-animate-down="ha-header-small" data-animate-up="ha-header-none"></section>
+    
     <div class="clearfix" id="work"></div>
     <div style="width:100%;">
         <center><img src="~/Content/Images/separator.png" /></center>
     </div>
-    <div class="clearfix pad-bottom-20"></div>
+    <section class="ha-waypoint" data-animate-down="ha-header-small" data-animate-up="ha-header-none"></section>
+    <div class="clearfix pad-bottom-20" id="100px-offset-waypoint"></div>
     <div class="work pad-top-50">
         <div class="clearfix"></div>
         <div class="col-lg-3 col-sm-1 col-xs-1"></div>
@@ -106,7 +112,7 @@
 
         </div>
 
-        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 workTiles">
 
             <ul id="categories" class="clr">
                 <li>
@@ -125,7 +131,7 @@
     </div>
 
     <div class="clearfix" id="footer"></div>
-    <div style="width:100%;">
+    <div style="width:100%;padding-bottom: 50px;">
         <center><img src="~/Content/Images/separator.png" /></center>
     </div>
     <div class="clearfix pad-bottom-20"></div>
@@ -145,7 +151,9 @@
                     <div class="modal-body">
                         <h2>{{modalData.title}}</h2>
                         <hr class="star-primary">
-                        <img src="~/Content/Images/main-back.jpg" class="img-responsive img-centered" alt="">
+                        <div ng-include="modalData.template">
+
+                        </div>
                         
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                     </div>

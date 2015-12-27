@@ -20,7 +20,8 @@ namespace Portfolio
                          "~/Scripts/parallax.js",
                          "~/Scripts/header/modernizr.custom.js",
                          "~/Scripts/header/waypoints.min.js",
-                         "~/Scripts/SmoothScroll.js"
+                         "~/Scripts/SmoothScroll.js",
+                         "~/Scripts/waypoints/jquery.waypoints.js"
                          ));
 
             // Use the development version of Modernizr to develop with and learn from. Then, when you're

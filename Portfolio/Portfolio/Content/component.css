@@ -377,17 +377,36 @@
 
 }
 
+@media screen and (min-width:400px) and (max-width:800px){
+    .ha-header-small{
+        height:20%;
+    }
+    .ha-header nav {
+        padding-top:7%;
+		font-size: 200%;
+	}
+    .ha-header h1 {
+		font-size: 2em;
+        display:none;
+	}
+}
 @media screen and (max-width: 38em) {
+
+    .ha-header-small{
+        height:20%;
+    }
 	section {
 		font-size: 1.3em;
 	}
 
 	.ha-header h1 {
 		font-size: 2em;
+        display:none;
 	}
 
 	.ha-header nav {
-		font-size: 60%;
+        padding-top:5%;
+		font-size: 100%;
 	}
 }
 
