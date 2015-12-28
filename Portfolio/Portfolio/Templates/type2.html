@@ -1,10 +1,25 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-	<meta charset="utf-8" />
-</head>
-<body>
+﻿<div class="row ">
+    <div class="modalMainType1" ng-style="{'background-image': 'url({{modalData.heroImg}})'}">
+        <h1>{{modalData.shortDesc}}</h1>
+    </div>    
+    
+    <div ng-repeat="section in modalData.sections" class="container">
 
-</body>
-</html>
+        <div class="section" ng-if="section.type == 1">
+            <center>{{section.text}}</center>
+        </div>
+        <div ng-if="section.type == 2">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 skillTile" ng-repeat="(key,val) in section.skills">
+                <center>
+                    <div> <img ng-src="/Content/Images/{{key}}.png" /></div>
+                    <div><span>{{key | uppercase}}</span></div>
+                </center>
+            </div>
+
+        </div>
+        <div class="section" ng-if="section.type == 3">
+            <img class="img-responsive" ng-repeat="image in section.images" ng-src="{{image}}" />
+        </div>
+    </div>
+
+</div>

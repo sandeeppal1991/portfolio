@@ -570,7 +570,7 @@ h3 {
         width: 1px;
         height: 75px;
         margin-left: 35px;
-        background-color: #2c3e50;
+        background-color: #4BA692;
         -webkit-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
         transform: rotate(45deg);
@@ -580,7 +580,7 @@ h3 {
             z-index: 1052;
             width: 1px;
             height: 75px;
-            background-color: #2c3e50;
+            background-color: #4BA692;
             -webkit-transform: rotate(90deg);
             -ms-transform: rotate(90deg);
             transform: rotate(90deg);
@@ -1014,11 +1014,7 @@ h3 {
             height: 80px;
         }
 
-    .chartImg {
-        width: 65%;
-        position: relative;
-        left: 12%;
-    }
+   
 
     .heroMeImg {
         position: absolute;
@@ -1304,11 +1300,7 @@ h3 {
             height: 70px;
         }
 
-    .chartImg {
-        width: 75%;
-        position: relative;
-        left: 12%;
-    }
+    
 
     .heroMeImg {
         position: absolute;
@@ -1324,7 +1316,7 @@ h3 {
     }
 
     #categories {
-        left: -10px !important;
+        left: -50px !important;
     }
 }
 
@@ -1721,11 +1713,7 @@ h3 {
             height: 70px;
         }
 
-    .chartImg {
-        width: 75%;
-        position: relative;
-        left: 12%;
-    }
+    
 
     .heroMeImg {
         position: absolute;
@@ -1764,20 +1752,160 @@ h3 {
         text-transform: uppercase;
         letter-spacing: 10px;
     }
-    .section center{
-        width:100%;
-        color:#999999;
-        font-size:1.2em;
-        padding-top:7%;
-        padding-left:25%;
-        padding-right:25%;
-        font-family:'Open Sans';
-        font-weight:500;
+
+.section center {
+    width: 100%;
+    color: #999999;
+    font-size: 1.2em;
+    padding-top: 7%;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.section img {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section {
+    min-height: 300px;
+}
+
+.skillTile {
+    height: 200px;
+    background-color: #fafafa;
+    margin-bottom: 10px;
+}
+
+    .skillTile img {
+        height: 70px;
+        margin-top: 40px;
+        margin-bottom: 20px !important;
     }
-    .section img{
-        padding-top:30px;
-        padding-bottom:30px;
+
+    .skillTile span {
+        font-size: 1em;
+        color: #999999;
     }
-    .section{
-        min-height:300px;
+
+@media only screen and (max-width : 800px) and (min-width:415px) {
+
+    .section {
+        font-size: 2em;
     }
+
+    .skillTile span {
+        font-size: 2em;
+        color: #999999;
+    }
+
+    .modalMainType1 h1 {
+        padding-top: 40%;
+        color: #FFF;
+        font-size: 5em;
+        font-weight: 100;
+        font-family: 'Open Sans';
+        text-transform: uppercase;
+        letter-spacing: 10px;
+    }
+
+    .work{
+        margin-bottom:100px;
+        height:auto;
+        padding-bottom:20px;
+        padding-left:0%;
+        
+    }
+    #categories{
+       
+        padding-bottom:200px;
+    }
+    #categories li:nth-child(7){
+        position:relative;
+        top:01px;
+        right:-57.62%
+    }
+    .portfolio{
+        margin-bottom:20px;
+    }
+    
+}
+@media only screen and (max-width : 414px) {
+    #categories{
+       
+        padding-bottom:200px;
+    }
+    #categories li:nth-child(5){
+        position:relative;
+        top:270px;
+        left:40.43%;
+    }
+    .portfolio{
+        margin-bottom:20px;
+    }
+    .work{
+        margin-bottom:100px;
+        height:auto;
+        padding-bottom:20px;
+        padding-left:0%;
+        
+    }
+}
+
+@media only screen and (max-width : 1200px) {
+
+    .section {
+        font-size: 2em;
+    }
+
+    .skillTile span {
+        font-size: 2em;
+        color: #999999;
+    }
+
+    .modalMainType1 h1 {
+        padding-top: 20%;
+        color: #FFF;
+        font-size: 10em;
+        font-weight: 100;
+        font-family: 'Open Sans';
+        text-transform: uppercase;
+        letter-spacing: 10px;
+    }
+}
+
+.portfolioButton {
+    min-width: 150px;
+    height: 45px;
+    border: 2px solid #4BA692;
+    background-color: #FFF;
+    color: #4BA692;
+    transition: background-color ease-out 1s;
+    transition: color ease 0.5s;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.9em;
+    letter-spacing: 2px;
+}
+
+    .portfolioButton:hover {
+        color: #FFF;
+        background-color: #4BA692;
+    }
+
+.black {
+    background-color:#202020 !important;
+    
+}
+.black span{
+    color: #FAFAFA !important;
+}
+
+.section h1 > img {
+    height: 200px;
+    
+    padding:0px;
+}

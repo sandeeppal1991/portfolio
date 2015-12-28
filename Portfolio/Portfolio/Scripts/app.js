@@ -12,6 +12,7 @@ app.controller("portController", function ($scope,$http) {
     $scope.OpenModal = function (project) {
 
         $scope.modalData = project;
-        $("#portfolioModal1").modal()
+        $("#portfolioModal1").modal();
+        console.log(project);
     }
 });

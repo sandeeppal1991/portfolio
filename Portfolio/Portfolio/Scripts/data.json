@@ -3,7 +3,7 @@
     {
       "title": "Wooplr",
       "description": "Lorem Ipsum",
-      "shortDesc": "Lorem",
+      "shortDesc": "",
       "mainImg": "/Content/Images/wooplr.jpg",
       "template": "/Templates/type1.html",
       "heroImg": "/Content/Images/wooplr1.jpg",
@@ -12,23 +12,21 @@
           "title": "Brief",
           "type": "1",
           "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-          
+
         },
         {
           "title": "Skills",
           "type": "2",
-          "skills": [
-            {
-              "photoshop": "50",
-              "illustrator": "30",
-              "usability study": "20"
-            }
-          ]
+          "skills": {
+            "photoshop": "50",
+            "illustrator": "30",
+            "usability study": "20"
+          }
         },
         {
           "title": "Section 1",
-          "type": "3",          
-          "images": [ "/Content/Images/wooplr2.jpg","/Content/Images/wooplr3.jpg","/Content/Images/wooplr4.jpg" ]
+          "type": "3",
+          "images": [ "/Content/Images/wooplr2.jpg", "/Content/Images/wooplr3.jpg", "/Content/Images/wooplr4.jpg" ]
         }
 
       ]
@@ -96,28 +94,34 @@
       "description": "Lorem Ipsum",
       "shortDesc": "Lorem",
       "mainImg": "/Content/Images/studio1.jpg",
-      "template": "/Templates/type1.html",
+      "template": "/Templates/type3.html",
       "heroImg": "/Content/Images/main-back.jpg",
       "sections": [
         {
           "title": "Section 1",
-          "type": "1",
-          "text": [ "abc", "def" ],
-          "images": [ "src1", "src2" ]
+          "type": "4",
+          "logo": "/Content/Images/studiologo.png",
+          "background": "/Content/Images/studioback.jpg"
+        },
+        {
+          "title": "Skills",
+          "type": "2",
+          "skills": {
+            "photoshop": "50",
+            "illustrator": "30",
+            "usability study": "20"
+          }
         },
         {
           "title": "Section 1",
           "type": "1",
-          "text": [ "abc", "def" ],
-          "images": [ "src1", "src2" ]
+          "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
         },
         {
           "title": "Section 1",
-          "type": "1",
-          "text": [ "abc", "def" ],
-          "images": [ "src1", "src2" ]
+          "type": "3",
+          "images": [ "/Content/Images/studio2.jpg" ]
         }
-
       ]
     },
     {
@@ -150,12 +154,12 @@
       ]
     },
     {
-      "title": "6",
-      "description": "Lorem Ipsum",
-      "shortDesc": "Lorem",
-      "mainImg": "/Content/Images/wooplr.jpg",
-      "heroImg": "/Content/Images/main-back.jpg",
-      "template": "/Templates/type1.html",
+      "title": "Elements",
+      "description": "",
+      "shortDesc": "Elements",
+      "mainImg": "/Content/Images/elements.jpg",
+      "heroImg": "/Content/Images/elements1.jpg",
+      "template": "/Templates/type2.html",
       "sections": [
         {
           "title": "Section 1",
@@ -164,10 +168,13 @@
           "images": [ "src1", "src2" ]
         },
         {
-          "title": "Section 1",
-          "type": "1",
-          "text": [ "abc", "def" ],
-          "images": [ "src1", "src2" ]
+          "title": "Skills",
+          "type": "2",
+          "skills": {
+            "photoshop": "50",
+            "illustrator": "30",
+            "angular": "20"
+          }
         },
         {
           "title": "Section 1",
@@ -179,12 +186,12 @@
       ]
     },
     {
-      "title": "7",
-      "description": "Lorem Ipsum",
-      "shortDesc": "Lorem",
-      "mainImg": "/Content/Images/wooplr.jpg",
-      "template": "/Templates/type1.html",
-      "heroImg": "/Content/Images/main-back.jpg",
+      "title": "Smart Varanasi",
+      "description": "Smart Varanasi",
+      "shortDesc": "Smart Varanasi",
+      "mainImg": "/Content/Images/mygov.jpg",
+      "template": "/Templates/type2.html",
+      "heroImg": "/Content/Images/mygov1.jpg",
       "sections": [
         {
           "title": "Section 1",
@@ -193,16 +200,19 @@
           "images": [ "src1", "src2" ]
         },
         {
-          "title": "Section 1",
-          "type": "1",
-          "text": [ "abc", "def" ],
-          "images": [ "src1", "src2" ]
+          "title": "Skills",
+          "type": "2",
+          "skills": {
+            "photoshop": "50",
+            "illustrator": "30",
+            "accessibility": "20"
+          }
         },
         {
           "title": "Section 1",
-          "type": "1",
+          "type": "3",
           "text": [ "abc", "def" ],
-          "images": [ "src1", "src2" ]
+          "images": [ "/Content/Images/mygov1.png"]
         }
 
       ]
