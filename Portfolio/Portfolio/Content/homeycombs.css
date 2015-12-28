@@ -49,12 +49,12 @@
 #categories div h1, #categories div p{
   width:100%;
   padding:0 0%;
-  background-color:#008080; background-color: rgba(0, 128, 128, 0.8);
-  font-family: 'Modern Sans', sans-serif;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-family: 'Open Sans', sans-serif;
   transition: top .2s ease-out, bottom .2s ease-out, .2s padding .2s ease-out;
 }
 #categories li h1{
-  bottom:110%;
+  bottom:100%;
   
   font-weight:normal;
   font-size:1.5em;
@@ -90,7 +90,7 @@
 
 #categories li div:hover h1 {
   bottom:10%;
-  padding-bottom:10%;
+  padding-bottom:35%;
 }
 
 

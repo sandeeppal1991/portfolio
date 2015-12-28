@@ -1,13 +1,14 @@
-﻿<div class="row">
-    <div ng-repeat="section in modalData.sections">
+﻿<div class="row ">
+    <img class="img-responsive" ng-src="{{modalData.heroImg}}" />
+    <div ng-repeat="section in modalData.sections" class="container">
         
-        <div ng-show="section.type == 1">
-            <div class="modalMainType1" ng-style="">
-                <h1>{{section.title}}</h1>
-            </div>
+        <div class="section" ng-show="section.type == 1">
+            <center>{{section.text}}</center>
         </div>
         <div ng-show="section.type == 2"></div>
-        <div ng-show="section.type == 3"></div>        
+        <div class="section" ng-show="section.type == 3">
+            <img class="img-responsive" ng-repeat="image in section.images" ng-src="{{image}}" />
+        </div>        
     </div>
 
 </div>
