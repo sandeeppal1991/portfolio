@@ -34,28 +34,30 @@
     {
       "title": "EFC Kitchens",
       "description": "Lorem Ipsum",
-      "shortDesc": "Lorem",
+      "shortDesc": "",
       "mainImg": "/Content/Images/efc.jpg",
-      "heroImg": "/Content/Images/main-back.jpg",
+      "heroImg": "/Content/Images/efc2.jpg",
       "template": "/Templates/type1.html",
       "sections": [
         {
           "title": "Section 1",
-          "type": "1",
-          "text": [ "abc", "def" ],
-          "images": [ "src1", "src2" ]
+          "type": "2",
+          "skills": {
+            "photoshop": "50",
+            "illustrator": "30",
+            "branding": "20"
+          }
         },
         {
-          "title": "Section 1",
+          "title": "Brief",
           "type": "1",
-          "text": [ "abc", "def" ],
-          "images": [ "src1", "src2" ]
+          "text": ""
         },
+
         {
           "title": "Section 1",
-          "type": "1",
-          "text": [ "abc", "def" ],
-          "images": [ "src1", "src2" ]
+          "type": "3",
+          "images": [ "/Content/Images/efc1.jpg" ]
         }
 
       ]
@@ -63,31 +65,35 @@
     {
       "title": "Coupon Dunia",
       "description": "Lorem Ipsum",
-      "shortDesc": "Lorem",
+      "shortDesc": "",
       "mainImg": "/Content/Images/cd1.jpg",
-      "heroImg": "/Content/Images/main-back.jpg",
+      "heroImg": "/Content/Images/coupondunia1.jpg",
       "template": "/Templates/type1.html",
       "sections": [
         {
-          "title": "Section 1",
-          "type": "1",
-          "text": [ "abc", "def" ],
-          "images": [ "src1", "src2" ]
+          "title": "Skills",
+          "type": "2",
+          "skills": {
+            "photoshop": "50",
+            "iconography": "30",
+            "usability study": "20"
+          }
         },
         {
-          "title": "Section 1",
+          "title": "Brief",
           "type": "1",
-          "text": [ "abc", "def" ],
-          "images": [ "src1", "src2" ]
+          "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+
         },
+
         {
           "title": "Section 1",
-          "type": "1",
-          "text": [ "abc", "def" ],
-          "images": [ "src1", "src2" ]
+          "type": "3",
+          "images": [ "/Content/Images/coupondunia2.jpg", "/Content/Images/coupondunia3.jpg" ]
         }
 
       ]
+
     },
     {
       "title": "Studio 42",
@@ -109,7 +115,7 @@
           "skills": {
             "photoshop": "50",
             "illustrator": "30",
-            "usability study": "20"
+            "iconography": "20"
           }
         },
         {
@@ -130,25 +136,27 @@
       "shortDesc": "Lorem",
       "mainImg": "/Content/Images/catapult1.jpg",
       "template": "/Templates/type1.html",
-      "heroImg": "/Content/Images/main-back.jpg",
+      "heroImg": "/Content/Images/catapult2.jpg",
       "sections": [
         {
           "title": "Section 1",
-          "type": "1",
-          "text": [ "abc", "def" ],
-          "images": [ "src1", "src2" ]
+          "type": "2",
+          "skills": {
+            "photoshop": "50",
+            "illustrator": "30",
+            "branding": "20"
+          }
         },
         {
-          "title": "Section 1",
+          "title": "Brief",
           "type": "1",
-          "text": [ "abc", "def" ],
-          "images": [ "src1", "src2" ]
+          "text": ""
         },
+
         {
           "title": "Section 1",
-          "type": "1",
-          "text": [ "abc", "def" ],
-          "images": [ "src1", "src2" ]
+          "type": "3",
+          "images": [ "/Content/Images/catapult3.jpg" ]
         }
 
       ]
@@ -156,16 +164,16 @@
     {
       "title": "Elements",
       "description": "",
-      "shortDesc": "Elements",
+      "shortDesc": "",
       "mainImg": "/Content/Images/elements.jpg",
-      "heroImg": "/Content/Images/elements1.jpg",
-      "template": "/Templates/type2.html",
+      "heroImg": "/Content/Images/elementsImg.jpg",
+      "template": "/Templates/type1.html",
       "sections": [
         {
-          "title": "Section 1",
+          "title": "Brief",
           "type": "1",
-          "text": [ "abc", "def" ],
-          "images": [ "src1", "src2" ]
+          "text": "We have created a new product that will help designers, developers and program managers create web apps quick and easy to suit their needs. Just select your components, add to the package, select supported framework, apply theme and download! Elements is a Self Service User Interface, which means one would not require extensive help from UX Specialists for their needs. This would reduce the engagement time required by the user with the UX team and the efforts would be greatly minimized.Elements contains web components which can easily be integrated into almost any design. All the components cater to same family of visual design, and thus can be seamlessly integrated into projects, allowing you to create multiple apps. This leads to a drastic save in time and effort. We currently support 27 components ranging from headers, footers to form controls and alerts. These components are heavily modularized so that they can be used as plug n play in multiple configurations to ensure a smooth operation."
+
         },
         {
           "title": "Skills",
@@ -173,14 +181,16 @@
           "skills": {
             "photoshop": "50",
             "illustrator": "30",
-            "angular": "20"
+            "angular": "20",
+            "iconography": "40",
+            "usability study": "50",
+            "accessibility": "30"
           }
         },
         {
           "title": "Section 1",
-          "type": "1",
-          "text": [ "abc", "def" ],
-          "images": [ "src1", "src2" ]
+          "type": "3",
+          "images": [ "/Content/Images/elements1.jpg", "/Content/Images/elements2.jpg", "/Content/Images/elements3.jpg", "/Content/Images/elements4.jpg", "/Content/Images/elements5.jpg" ]
         }
 
       ]
@@ -212,7 +222,7 @@
           "title": "Section 1",
           "type": "3",
           "text": [ "abc", "def" ],
-          "images": [ "/Content/Images/mygov1.png"]
+          "images": [ "/Content/Images/mygov1.png" ]
         }
 
       ]

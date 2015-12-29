@@ -1741,6 +1741,8 @@ h3 {
 .modalMainType1 {
     width: 100%;
     height: 500px;
+    background-repeat:no-repeat;
+    margin-bottom:30px;
 }
 
     .modalMainType1 h1 {
@@ -1772,6 +1774,7 @@ h3 {
 
 .section {
     min-height: 300px;
+    margin-bottom:100px;
 }
 
 .skillTile {
@@ -1782,12 +1785,13 @@ h3 {
 
     .skillTile img {
         height: 70px;
-        margin-top: 40px;
+        margin-top: 10px;
         margin-bottom: 20px !important;
+        padding:0;
     }
 
     .skillTile span {
-        font-size: 1em;
+        font-size: 1em !important;
         color: #999999;
     }
 
@@ -1843,6 +1847,15 @@ h3 {
         top:270px;
         left:40.43%;
     }
+    .modalMainType1 h1 {
+        padding-top: 40%;
+        color: #FFF;
+        font-size: 5em;
+        font-weight: 100;
+        font-family: 'Open Sans';
+        text-transform: uppercase;
+        letter-spacing: 10px;
+    }
     .portfolio{
         margin-bottom:20px;
     }
@@ -1855,7 +1868,7 @@ h3 {
     }
 }
 
-@media only screen and (max-width : 1200px) {
+@media only screen and (max-width : 1200px) and (min-width : 801px) {
 
     .section {
         font-size: 2em;
@@ -1908,4 +1921,20 @@ h3 {
     height: 200px;
     
     padding:0px;
+}
+
+.portfolio-modal .modal-content h2{
+    font-size:2em;
+    font-family:'Open Sans',Arial;
+    text-transform:uppercase;
+    letter-spacing:3px;
+}
+
+
+.screens{
+    border:1px dashed #ccc;
+    padding:5px !important;
+    padding-top:5px;
+    padding-bottom:5px;
+
 }

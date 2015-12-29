@@ -4,11 +4,12 @@
     </div>    
     
     <div ng-repeat="section in modalData.sections" class="container">
-
+        <h2>{{section.title}}</h2>
+        <hr class="star-primary" ng-if="section.title"> 
         <div class="section" ng-if="section.type == 1">
             <center>{{section.text}}</center>
         </div>
-        <div ng-if="section.type == 2">
+        <div ng-if="section.type == 2" class="section">
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 skillTile" ng-repeat="(key,val) in section.skills">
                 <center>
                     <div> <img ng-src="/Content/Images/{{key}}.png" /></div>
@@ -18,7 +19,7 @@
 
         </div>
         <div class="section" ng-if="section.type == 3">
-            <img class="img-responsive" ng-repeat="image in section.images" ng-src="{{image}}" />
+           <img class="img-responsive screens" ng-repeat="image in section.images" ng-src="{{image}}" />
         </div>
     </div>
 
