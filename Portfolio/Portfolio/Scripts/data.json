@@ -3,6 +3,7 @@
     {
       "title": "Wooplr",
       "description": "Lorem Ipsum",
+      "platform": ["android"],
       "shortDesc": "",
       "mainImg": "/Content/Images/wooplr.jpg",
       "template": "/Templates/type1.html",
@@ -24,7 +25,7 @@
           }
         },
         {
-          "title": "Section 1",
+          "title": "Screens",
           "type": "3",
           "images": [ "/Content/Images/wooplr2.jpg", "/Content/Images/wooplr3.jpg", "/Content/Images/wooplr4.jpg" ]
         }
@@ -40,7 +41,7 @@
       "template": "/Templates/type1.html",
       "sections": [
         {
-          "title": "Section 1",
+          "title": "Skills",
           "type": "2",
           "skills": {
             "photoshop": "50",
@@ -55,7 +56,7 @@
         },
 
         {
-          "title": "Section 1",
+          "title": "Screens",
           "type": "3",
           "images": [ "/Content/Images/efc1.jpg" ]
         }
@@ -87,7 +88,7 @@
         },
 
         {
-          "title": "Section 1",
+          "title": "Screens",
           "type": "3",
           "images": [ "/Content/Images/coupondunia2.jpg", "/Content/Images/coupondunia3.jpg" ]
         }
@@ -104,7 +105,7 @@
       "heroImg": "/Content/Images/main-back.jpg",
       "sections": [
         {
-          "title": "Section 1",
+          "title": "",
           "type": "4",
           "logo": "/Content/Images/studiologo.png",
           "background": "/Content/Images/studioback.jpg"
@@ -119,12 +120,12 @@
           }
         },
         {
-          "title": "Section 1",
+          "title": "Brief",
           "type": "1",
           "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
         },
         {
-          "title": "Section 1",
+          "title": "Branding",
           "type": "3",
           "images": [ "/Content/Images/studio2.jpg" ]
         }
@@ -139,7 +140,7 @@
       "heroImg": "/Content/Images/catapult2.jpg",
       "sections": [
         {
-          "title": "Section 1",
+          "title": "Skills",
           "type": "2",
           "skills": {
             "photoshop": "50",
@@ -154,7 +155,7 @@
         },
 
         {
-          "title": "Section 1",
+          "title": "Screens",
           "type": "3",
           "images": [ "/Content/Images/catapult3.jpg" ]
         }
@@ -188,7 +189,7 @@
           }
         },
         {
-          "title": "Section 1",
+          "title": "Screens",
           "type": "3",
           "images": [ "/Content/Images/elements1.jpg", "/Content/Images/elements2.jpg", "/Content/Images/elements3.jpg", "/Content/Images/elements4.jpg", "/Content/Images/elements5.jpg" ]
         }
@@ -204,12 +205,6 @@
       "heroImg": "/Content/Images/mygov1.jpg",
       "sections": [
         {
-          "title": "Section 1",
-          "type": "1",
-          "text": [ "abc", "def" ],
-          "images": [ "src1", "src2" ]
-        },
-        {
           "title": "Skills",
           "type": "2",
           "skills": {
@@ -219,9 +214,8 @@
           }
         },
         {
-          "title": "Section 1",
+          "title": "Screens",
           "type": "3",
-          "text": [ "abc", "def" ],
           "images": [ "/Content/Images/mygov1.png" ]
         }
 
