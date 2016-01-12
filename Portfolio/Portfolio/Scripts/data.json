@@ -134,7 +134,7 @@
     {
       "title": "Catapult",
       "description": "Lorem Ipsum",
-      "shortDesc": "Lorem",
+      "shortDesc": "",
       "mainImg": "/Content/Images/catapult1.jpg",
       "template": "/Templates/type1.html",
       "heroImg": "/Content/Images/catapult2.jpg",
