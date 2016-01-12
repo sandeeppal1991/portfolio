@@ -105,7 +105,13 @@ textarea {
         width: 0;
         border-bottom: 160px solid #4BA692;
     }
-
+    .screens center{
+        padding:0px !important;
+    }
+.heroRight div {
+           
+            cursor:pointer;
+        }
 .chart-white {
     position: relative;
     width: 470px;
@@ -850,7 +856,7 @@ h3 {
     .heroMeImg {
         position: absolute;
         top: 5%;
-        left: 43%;
+        left: 45%;
         height: 6%;
     }
 
@@ -863,11 +869,20 @@ h3 {
     .hexMain {
         position: absolute;
         top: 5%;
-        left: 43%;
+        left: 45%;
         height: 6%;
         background-size: contain;
         opacity: 0.5;
         transition: opacity ease 0.5s;
+    }
+    .turqImg{
+        height:15%;
+        left:30%;
+    }
+
+    .heroText{
+        left:41%;
+        top:14%;
     }
 
         .hexMain:hover {
@@ -1004,7 +1019,9 @@ h3 {
 
         .heroRight div {
             padding-bottom: 40px;
+            cursor:pointer;
         }
+         
 
         .heroRight img {
             position: relative;
@@ -1934,7 +1951,30 @@ h3 {
 .screens{
     border:1px dashed #ccc;
     padding:5px !important;
-    padding-top:5px;
+    padding-top:0px;
     padding-bottom:5px;
+    margin-bottom:20px;
 
+}
+
+.screens img{
+    padding-top:5px !important;
+}
+
+.screens p{
+    padding-bottom:30px;
+    color:#666;
+    letter-spacing:1px;
+}
+
+@media screen and (max-width:441px){
+    .screens p{
+    font-size:1.5em;
+}
+    .section center{
+        padding:10px;
+        font-size:2em;
+        text-justify:distribute-all-lines;
+        justify-content:space-between;
+    }
 }

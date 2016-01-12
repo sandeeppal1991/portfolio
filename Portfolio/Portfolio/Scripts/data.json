@@ -3,7 +3,7 @@
     {
       "title": "Wooplr",
       "description": "Lorem Ipsum",
-      "platform": ["android"],
+      "platform": [ "android" ],
       "shortDesc": "",
       "mainImg": "/Content/Images/wooplr.jpg",
       "template": "/Templates/type1.html",
@@ -12,7 +12,7 @@
         {
           "title": "Brief",
           "type": "1",
-          "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+          "text": "Wooplr is India's first fashion discovery app. Wooplr's fast growing community of shoppers of which 80% are women, share fashion inspirations and the latest trends on the go. The primary aim was to modify the existing product details page and make it more intuitive to the user."
 
         },
         {
@@ -27,7 +27,20 @@
         {
           "title": "Screens",
           "type": "3",
-          "images": [ "/Content/Images/wooplr2.jpg", "/Content/Images/wooplr3.jpg", "/Content/Images/wooplr4.jpg" ]
+          "images": [
+            {
+              "src": "/Content/Images/wooplr2.jpg",
+              "text": "I started off with jotting down the Informational components on the page. Then I ranked these points according to the priority in which a particular information holds value to the user."
+            },
+            {
+              "src": "/Content/Images/wooplr4.jpg",
+              "text": "I created wireframes on mobile device mockups to get a brief idea how things are going to look like."
+            },
+            {
+              "src": "/Content/Images/wooplr3.jpg",
+              "text": "The final screen with all the informational components placed. All the information that the user wants is available to him/her in the first view. Secondary information such as likes and related items appear as you scroll down."
+            }
+          ]
         }
 
       ]
@@ -52,13 +65,18 @@
         {
           "title": "Brief",
           "type": "1",
-          "text": ""
+          "text": "EFC Kitchens was found in 2001 by Nick Amiri who has almost two decades of experience in the industry. This is a family owned business, where quality and excellence make the difference completing any project. Our attention to detail and our love for the trade quickly established us as a favorite amongst many high end home builders. In the past decade we have completed thousands of projects across the GTA, each one uniquely designed and built for the home owner. Great design is the first step to beautifully functional cabinetry. Equally important is the use of premium material, construction method and craftsmanship. At EFC Kitchens all of our cabinetry is completely custom made utilizing only the finest material and the greatest attention to detail. Industry leading European hardware manufacturers such as Blum, Hafele, and Grass are used in all of our cabinetry. <br/><b> The primary aim of this project was to redesign the website for EFC Kitchens. Earlier their website was a multi page application. Being a pure informational website, I thought to make a single page application out of it.</b>"
         },
 
         {
           "title": "Screens",
           "type": "3",
-          "images": [ "/Content/Images/efc1.jpg" ]
+          "images": [
+            {
+              "src": "/Content/Images/efc1.jpg",
+              "text": "The website required a brownish elegant colour to it, something that would match the colour of wood hence the theme for the website has been chosen that way. The gallery control is a hybrid of a carousel and an accordion. This is used to display images as well as categorize the gallery."
+            }
+          ]
         }
 
       ]
@@ -90,7 +108,16 @@
         {
           "title": "Screens",
           "type": "3",
-          "images": [ "/Content/Images/coupondunia2.jpg", "/Content/Images/coupondunia3.jpg" ]
+          "images": [
+            {
+              "src": "/Content/Images/coupondunia2.jpg",
+              "text": "abc"
+            },
+            {
+              "src": "/Content/Images/coupondunia3.jpg",
+              "text": "abc"
+            }
+          ]
         }
 
       ]
@@ -127,7 +154,12 @@
         {
           "title": "Branding",
           "type": "3",
-          "images": [ "/Content/Images/studio2.jpg" ]
+          "images": [
+            {
+              "src": "/Content/Images/studio2.jpg",
+              "text": "abc"
+            }
+          ]
         }
       ]
     },
@@ -157,7 +189,12 @@
         {
           "title": "Screens",
           "type": "3",
-          "images": [ "/Content/Images/catapult3.jpg" ]
+          "images": [
+            {
+              "src": "/Content/Images/catapult3.jpg",
+              "text": "abc"
+            }
+          ]
         }
 
       ]
@@ -191,7 +228,28 @@
         {
           "title": "Screens",
           "type": "3",
-          "images": [ "/Content/Images/elements1.jpg", "/Content/Images/elements2.jpg", "/Content/Images/elements3.jpg", "/Content/Images/elements4.jpg", "/Content/Images/elements5.jpg" ]
+          "images": [
+            {
+              "src": "/Content/Images/elements1.jpg",
+              "text": "We have created a new product that will help designers, developers and program managers create web apps quick and easy to suit their needs. Just select your components, add to the package, select supported framework, apply theme and download! Elements is a Self Service User Interface, which means one would not require extensive help from UX Specialists for their needs. This would reduce the engagement time required by the user with the UX team and the efforts would be greatly minimized.Elements contains web components which can easily be integrated into almost any design. All the components cater to same family of visual design, and thus can be seamlessly integrated into projects, allowing you to create multiple apps. This leads to a drastic save in time and effort. We currently support 27 components ranging from headers, footers to form controls and alerts. These components are heavily modularized so that they can be used as plug n play in multiple configurations to ensure a smooth operation."
+            },
+            {
+              "src": "/Content/Images/elements2.jpg",
+              "text": "abc"
+            },
+            {
+              "src": "/Content/Images/elements3.jpg",
+              "text": "abc"
+            },
+            {
+              "src": "/Content/Images/elements4.jpg",
+              "text": "abc"
+            },
+            {
+              "src": "/Content/Images/elements5.jpg",
+              "text": "abc"
+            }
+          ]
         }
 
       ]
@@ -216,7 +274,12 @@
         {
           "title": "Screens",
           "type": "3",
-          "images": [ "/Content/Images/mygov1.png" ]
+          "images": [
+            {
+              "src": "/Content/Images/mygov1.png",
+              "text": "abc"
+            }
+          ]
         }
 
       ]

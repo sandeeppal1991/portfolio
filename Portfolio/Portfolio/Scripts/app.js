@@ -1,4 +1,4 @@
-﻿var app = angular.module("portfolio", []);
+﻿var app = angular.module("portfolio", ['ngSanitize']);
 
 app.controller("portController", function ($scope,$http) {
     $scope.firstName = "John";

@@ -7,7 +7,7 @@
         <h2>{{section.title}}</h2>
         <hr class="star-primary" ng-if="section.title"> 
         <div class="section" ng-if="section.type == 1">
-            <center>{{section.text}}</center>
+            <center ng-bind-html="section.text"></center>
         </div>
         <div ng-if="section.type == 2" class="section">
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 skillTile" ng-repeat="(key,val) in section.skills">
@@ -19,7 +19,13 @@
 
         </div>
         <div class="section" ng-if="section.type == 3">
-           <img class="img-responsive screens" ng-repeat="image in section.images" ng-src="{{image}}" />
+            <div ng-repeat="image in section.images" class="screens">
+                <center><img class="img-responsive " ng-src="{{image.src}}" /></center>
+                <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12 col-lg-offset-2 col-md-offset-1">
+                    <p>{{image.text}}</p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
         </div>
     </div>
 

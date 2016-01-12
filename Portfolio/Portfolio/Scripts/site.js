@@ -8,14 +8,14 @@
 
 $(document).ready(function () {
    
-    $(".goLeft").hover(function () {
-        $(this).css("left", "-100px");
-        $(this).next("span").css("opacity", "1");
+    $(".heroRight div").hover(function () {
+        $(this).children("img").css("left", "-100px");        
+        $(this).children("span").css("opacity", "1");
         console.log(this);
 
     }, function () {
-        $(this).css("left", "0px");
-        $(this).next("span").css("opacity", "0");
+        $(this).children("img").css("left", "0px");
+        $(this).children("span").css("opacity", "0");
     });
  
     var waypoint = new Waypoint({
