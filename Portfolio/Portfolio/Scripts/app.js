@@ -1,6 +1,7 @@
 ﻿var app = angular.module("portfolio", ['ngSanitize']);
 
-app.controller("portController", function ($scope,$http) {
+app.controller("portController", function ($scope, $http, $sce) {
+    $scope.$sce = $sce;
     $scope.firstName = "John";
     $scope.lastName = "Doe";
     $scope.modalData = {};

@@ -47,7 +47,7 @@
         </div>
         <div class="main-bottom" id="mainBottom">
             <div class="clearfix"></div>
-            <div class="col-lg-5 col-lg-offset-5 fancy-text col-md-5 col-md-offset-6"> I AM A UX DESIGNER AND DEVELOPER AND I LIKE SIMPLE GEOMETRIC SHAPES</div>
+            <div class="col-lg-5 col-lg-offset-5 fancy-text col-md-5 col-md-offset-6"> I EMPLOY A HUMAN CENTERED DESIGN APPROACH TO PRODUCT MANAGEMENT USING QUANTITATIVE AND QUALITATIVE METHODS.</div>
             <div class="clearfix"></div>
         </div>
         <div class="clearfix"></div>
@@ -58,15 +58,44 @@
 </div>
 <div class="mainContent">
     
-    <div class="clearfix" id="work"></div>
+    
     <div style="width:100%;">
         <center><img src="~/Content/Images/separator.png" /></center>
     </div>
     <section class="ha-waypoint" data-animate-down="ha-header-small" data-animate-up="ha-header-none"></section>
     <div class="clearfix pad-bottom-20" id="100px-offset-waypoint"></div>
+    
+    <div class="clearfix" id="portfolio"></div>
+    <div class="portfolio pad-top-50">
+        <div class="clearfix"></div>
+        <div class="col-lg-3 col-md-1 deco-left">
+
+
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 workTiles">
+
+            <ul id="categories" class="clr">
+                
+                <li ng-repeat="project in works.projects" ng-click="OpenModal(project)">
+                    <div class="portfolio-link">
+                        <img ng-src="{{project.mainImg}}" alt="" />
+                        <h1><a>{{project.title}}</a></h1>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+        <div class="col-lg-3 col-md-1 deco-right"></div>
+        <div class="clearfix"></div>
+    </div>
+    <div style="width:100%;">
+        <center><img src="~/Content/Images/separator.png" /></center>
+    </div>
+    <div class="clearfix" id="work"></div>
     <div class="work pad-top-50">
         <div class="clearfix"></div>
-        
+
         <div class="col-lg-6 col-sm-12 col-xs-12 col-md-12 col-lg-offset-3">
             <div class="chart-text ps-text">Photoshop </div>
             <div class="chart-text ai-text">ILLUSTRATOR </div>
@@ -101,35 +130,8 @@
         </div>
         <div class="clearfix"></div>
     </div>
-    <div class="clearfix" id="portfolio"></div>
-    <div style="width:100%;">
-        <center><img src="~/Content/Images/separator.png" /></center>
-    </div>
     <div class="clearfix pad-bottom-20"></div>
-    <div class="portfolio pad-top-50">
-        <div class="clearfix"></div>
-        <div class="col-lg-3 col-md-1 deco-left">
-
-
-        </div>
-
-        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 workTiles">
-
-            <ul id="categories" class="clr">
-                <li>
-                </li>
-                <li ng-repeat="project in works.projects" ng-click="OpenModal(project)">
-                    <div class="portfolio-link">
-                        <img ng-src="{{project.mainImg}}" alt="" />
-                        <h1><a>{{project.title}}</a></h1>
-                    </div>
-                </li>
-
-            </ul>
-        </div>
-        <div class="col-lg-3 col-md-1 deco-right"></div>
-        <div class="clearfix"></div>
-    </div>
+   
 
     <div class="clearfix" id="footer"></div>
     <div style="width:100%;padding-bottom: 50px;">

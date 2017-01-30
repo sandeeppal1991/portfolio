@@ -1841,14 +1841,10 @@ h3 {
         
     }
     #categories{
-       
+        left:20px !important;
         padding-bottom:200px;
     }
-    #categories li:nth-child(7){
-        position:relative;
-        top:01px;
-        right:-57.62%
-    }
+    
     .portfolio{
         margin-bottom:20px;
     }
@@ -1856,14 +1852,10 @@ h3 {
 }
 @media only screen and (max-width : 414px) {
     #categories{
-       
+        left:20px !important;       
         padding-bottom:200px;
     }
-    #categories li:nth-child(5){
-        position:relative;
-        top:270px;
-        left:40.43%;
-    }
+    
     .modalMainType1 h1 {
         padding-top: 40%;
         color: #FFF;

@@ -9,7 +9,7 @@
   margin:0 auto;
   position:relative;
   top:-40px;
-  left:-40px;
+  left:0px;
 }
 .clr:after{
   content:"";

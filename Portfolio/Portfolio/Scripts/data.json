@@ -1,6 +1,192 @@
 ﻿{
   "projects": [
     {
+      "title": "Airomatic",
+      "description": "Lorem Ipsum",
+      "platform": [ "ios" ],
+      "shortDesc": "",
+      "mainImg": "/Content/Images/airomatic.jpg",
+      "template": "/Templates/type1.html",
+      "heroImg": "/Content/Images/airomatic_hero.png",
+      "sections": [
+        {
+          "title": "Brief",
+          "type": "1",
+          "text": "Design Solution for EPA's air quality challenge to engage communities in monitoring air quality data and taking action to improve their environment. The challenge : 1. Manage the data they collect Create solutions and identify best practices 2. Plan to share data with other communities 3. Engage citizens in collecting data about their community. <a href='https://invis.io/2P9L1O24R'> Link to Prototype </a>"
+
+        },
+        {
+          "title": "Skills",
+          "type": "2",
+          "skills": {
+            "photoshop": "50",
+            "illustrator": "30",
+            "usability study": "20",
+            "data analytics": "20",
+            "user research": "30"
+          }
+        },
+        {
+          "title": "Screens",
+          "type": "3",
+          "images": [
+            {
+              "src": "/Content/Images/air_process.jpg",
+              "text": "We started off by understanding the problem statement and followed divergent and then convergent steps to design our prototype"
+            },
+            {
+              "src": "/Content/Images/air_personas.jpg",
+              "text": "We came up with three personas:<ul><li> The Tech guy who is all concerned about air quality and takes part in activities concerning air quality.</li><li>Second is of a soccer mom who doesnt have much time to act about air quality but she is concerned about the air quality of the places her children visit.</li><li>The Third is of a student who wants to research about air quality and the various factors that affect it for his school project.</li> "
+            },
+            {
+              "src": "/Content/Images/air_interview.jpg",
+              "text": "We conducted Google Surveys to know more about the type of users we are dealing with and their concerns about air quality"
+            },
+            {
+              "src": "/Content/Images/air_survey.jpg",
+              "text": "As you can see the primary problem that people had regarding air quality improvement activities was the time effort required. We treated this as priority and acted upon designing an app that wouldnt take up too much user time."
+            },
+            {
+              "src": "/Content/Images/air_prototypes.jpg",
+              "text": "Some of the prototypes that we designed based ont he personas we had come up with"
+            },
+            {
+              "src": "/Content/Images/EPA SCreens.png",
+              "text": "The final screen with all the informational components placed. All the information that the user wants is available to him/her in the first view. Secondary information such as chart details and breakup of air quality score and information about pollutants and sensors appears when you drill down from the home screen."
+            },
+            {
+              "src": "",
+              "text": "<iframe width='100%' height='315' src='https://www.youtube.com/embed/qBRBfr-NZrw' frameborder='0' allowfullscreen></iframe>"
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "title": "CMYK",
+      "description": "Lorem Ipsum",
+      "platform": [ "print" ],
+      "shortDesc": "",
+      "mainImg": "/Content/Images/cmyk.png",
+      "template": "/Templates/type1.html",
+      "heroImg": "/Content/Images/cmyk_hero.png",
+      "sections": [
+        {
+          "title": "Brief",
+          "type": "1",
+          "text": "The CMYK Designathon is an annual one-day design competion for UC Berkeley students; this year’s contest challenged participants to transform the brand of a local business: community stalwart Games of Berkeley. Games of Berkeley is one of the oldest tabletop game stores in the Bay Area. After three decades in downtown Berkeley, the store planned to move to a new location closer to the Cal campus, and was seeking marketing strategies to attract new customers while keeping old ones. In particular, the store wanted to brand itself as community hangout, with a gathering space and a full range of gaming events.We designed a marketing campaign that included posters, folded-paper “fortune-teller”, and deck of playing cards to help transform the brand of the store. Our design targeted Cal students as the primary user group.We won the First-place prize and “Illustration Wizard” award for the best-quality designs, 2016 CMYK Designathon, UC Berkeley.My Team included others from the Ischool,UC Berkeley: Yifei Liu, Safei Gu, Michelle Carney, Prateek Nadagouda, Liz Lee"
+
+        },
+        {
+          "title": "Skills",
+          "type": "2",
+          "skills": {
+            "photoshop": "50",
+            "illustrator": "30",
+            "user research": "20"
+          }
+        },
+        {
+          "title": "Screens",
+          "type": "3",
+          "images": [
+            {
+              "src": "/Content/Images/cmyk_map3.jpg",
+              "text": "We started off with jotting down the characteristics of a Berkeley student and what is special about Berkeley that could be represented in the designs. Quirky and Liberal are some of the terms we came up with and that was the theme for our design."
+            },
+            {
+              "src": "/Content/Images/cmyk_persona.png",
+              "text": "Persona for our designs"
+            },
+            {
+              "src": "/Content/Images/cmyk_paper0.jpg",
+              "text": "This and two images below are pics of one design solution that we proposed. We created a low fidelity prototype of a whimsical folded-paper “fortune-teller” with a variety of reasons that people should visit the new store."
+            },
+            {
+              "src": "/Content/Images/cmyk_paper1.jpg",
+              "text": ""
+            },
+            {
+              "src": "/Content/Images/cmyk_paper2.jpg",
+              "text": ""
+            },
+            {
+              "src": "/Content/Images/cmyk_poster1.jpg",
+              "text": "We designed a pair of one-page posters that could be distributed around campus, with games or crossword puzzles to make them interactive. Solving the puzzles would give the user a promocode to UberEATS whenever they deliver to the new Games of Berkeley Address, encouraging students to stay longer and making this a 'Stay and Play' hangout spot."
+            },
+            {
+              "src": "/Content/Images/cmyk_poster2.jpg",
+              "text": ""
+            },
+            {
+              "src": "/Content/Images/cmyk_card.png",
+              "text": "We designed a Games of Berkeley–themed deck of playing cards with icons representating the variety of games and activities at Games of Berkeley, along with store’s new address on the back of the cards."
+            },
+            {
+              "src": "/Content/Images/cmyk_work1.jpg",
+              "text": "Image of work in progress ( not candid )"
+            },
+            {
+              "src": "/Content/Images/cmyk_work2.jpg",
+              "text": "Image of work in progress ( not candid )"
+            },
+            {
+              "src": "/Content/Images/cmyk_winner2.jpg",
+              "text": "The team with all the awards and gifts we received !"
+            }
+          ]
+        }
+
+      ]
+    },
+      {
+      "title": "Thread Art Synthesizer",
+      "description": "Lorem Ipsum",
+      "platform": [ "hardware" ],
+      "shortDesc": "",
+      "mainImg": "/Content/Images/tsa.jpg",
+      "template": "/Templates/type1.html",
+      "heroImg": "/Content/Images/tas_hero.png",
+      "sections": [
+        {
+          "title": "Brief",
+          "type": "1",
+          "text": "I  explored  the  interesting  combination  of  visual  art  driven  music.  This  device,  Thread  Art  Synthesizer  allows  people  interacting with it to make the process of creating thread art a  joyful  activity.  This  involves  use  of  ultrasonic  sensors  in  order to capture the distance of threads from the sensors and mapping it to different layers in music. In this paper, I would be  analyzing  people’s  reaction  to  a  prototype.  Since  this  device  brings  in  a  new  form  of  interaction,  it  would  be  interesting  to  observe  the  adoptability  of  the  interaction  as  well as analyze the interaction from a usability perspective."
+
+        },
+        {
+          "title": "Skills",
+          "type": "2",
+          "skills": {
+            "photoshop": "50",
+            "illustrator": "30",
+            "usability study": "20",
+            "iot": "30"
+          }
+        },
+        {
+          "title": "Screens",
+          "type": "3",
+          "images": [
+            {
+              "src": "",
+              "text": "<iframe src='https://onedrive.live.com/embed?cid=1CD986A723A5637F&resid=1CD986A723A5637F%213596&authkey=AL8X_JtqMu2u6rw&em=2&wdAr=1.7777777777777777' width='100%' height='691px' frameborder='0'>This is an embedded <a target='_blank' href='https://office.com'>Microsoft Office</a> presentation, powered by <a target='_blank' href='https://office.com/webapps'>Office Online</a>.</iframe>"
+            },  
+            {
+              "src": "",
+              "text": "<iframe width='100%' height='315' src='https://www.youtube.com/embed/iW22Xxifbu0' frameborder='0' allowfullscreen></iframe>"
+            },
+            {
+              "src": "",
+              "text": "<iframe src='https://onedrive.live.com/embed?cid=1CD986A723A5637F&resid=1CD986A723A5637F%213886&authkey=AJDgyDx_emobtWg&em=2' width= '100%' height='500' frameborder='0' scrolling='no'></iframe>"
+            }
+          ]
+        }
+
+      ]
+    },
+    {
       "title": "Wooplr",
       "description": "Lorem Ipsum",
       "platform": [ "android" ],
